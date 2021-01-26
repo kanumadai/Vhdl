@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/BMD_64_RX_ENGINE.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/BMD_64_TX_ENGINE.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/common/BMD.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/common/BMD_CFG_CTRL.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/common/BMD_EP.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/common/BMD_EP_MEM.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/common/BMD_EP_MEM_ACCESS.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/common/BMD_GEN2.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/common/BMD_INTR_CTRL.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/common/BMD_INTR_CTRL_DELAY.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/common/BMD_PCIE_20.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/common/BMD_RD_THROTTLE.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/common/BMD_TO_CTRL.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/gtx_drp_chanalign_fix_3752_v6.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/gtx_rx_valid_filter_v6.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/gtx_tx_sync_rate_v6.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/gtx_wrapper_v6.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_2_0_v6.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_bram_top_v6.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_bram_v6.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_brams_v6.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_clocking_v6.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_gtx_v6.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_pipe_lane_v6.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_pipe_misc_v6.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_pipe_v6.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_reset_delay_v6.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_upconfig_fix_3451_v6.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/v6_pci_exp_64b_app.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/xilinx_pci_exp_ep.v\&quot; into library work</arg>
+</msg>
+
+</messages>
+

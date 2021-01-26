@@ -1,0 +1,25 @@
+Release 13.1 Drc O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Mon Jul 21 15:21:14 2014
+
+drc -z DEC_TOP.ncd DEC_TOP.pcf
+
+WARNING:PhysDesignRules:1842 - One or more GTXs are being used in this design.
+   Evaluate the SelectIO-To-GTX Crosstalk section of the Virtex-5 RocketIO GTX
+   Transceiver User Guide to ensure that the design SelectIO usage meets the
+   guidelines to minimize the impact on GTX performance. 
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   pcie/app/BMD/BMD_EP/EP_TX/BMD_INTR_CTRL/intr_done_or0000 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   pcie/app/BMD/BMD_EP/EP_TX/BMD_INTR_CTRL/intr_n_or0000 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   pcie/ep/pcie_ep0/pcie_blk/SIO/.pcie_gt_wrapper_i/icdrreset<0> is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+DRC detected 0 errors and 4 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

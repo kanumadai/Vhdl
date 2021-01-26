@@ -1,0 +1,38 @@
+//! **************************************************************************
+// Written by: Map O.40d on Mon Jul 21 15:20:11 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SFP_RX_N" LOCATE = SITE "H1" LEVEL 1;
+COMP "SFP_RX_P" LOCATE = SITE "G1" LEVEL 1;
+COMP "SFP_TX_N" LOCATE = SITE "G2" LEVEL 1;
+COMP "SFP_TX_P" LOCATE = SITE "F2" LEVEL 1;
+COMP "SFP_tx_en" LOCATE = SITE "K24" LEVEL 1;
+COMP "clkin" LOCATE = SITE "AH15" LEVEL 1;
+COMP "pci_exp_rxn<0>" LOCATE = SITE "AF1" LEVEL 1;
+COMP "pci_exp_rxp<0>" LOCATE = SITE "AE1" LEVEL 1;
+COMP "pci_exp_txn<0>" LOCATE = SITE "AE2" LEVEL 1;
+COMP "pci_exp_txp<0>" LOCATE = SITE "AD2" LEVEL 1;
+COMP "reset_n" LOCATE = SITE "E9" LEVEL 1;
+COMP "refclkout" LOCATE = SITE "H33" LEVEL 1;
+COMP "SFP_iic_sda" LOCATE = SITE "U28" LEVEL 1;
+COMP "SFP_iic_scl" LOCATE = SITE "U26" LEVEL 1;
+COMP "sys_clk_n" LOCATE = SITE "AF3" LEVEL 1;
+COMP "sys_clk_p" LOCATE = SITE "AF4" LEVEL 1;
+COMP "LEDS<0>" LOCATE = SITE "F34" LEVEL 1;
+COMP "LEDS<1>" LOCATE = SITE "L18" LEVEL 1;
+COMP "LEDS<2>" LOCATE = SITE "G15" LEVEL 1;
+COMP "LEDS<3>" LOCATE = SITE "AD26" LEVEL 1;
+COMP "LEDS<4>" LOCATE = SITE "G16" LEVEL 1;
+COMP "LEDS<5>" LOCATE = SITE "AD25" LEVEL 1;
+COMP "LEDS<6>" LOCATE = SITE "AD24" LEVEL 1;
+COMP "LEDS<7>" LOCATE = SITE "AE24" LEVEL 1;
+COMP "MGTCLK_N" LOCATE = SITE "H3" LEVEL 1;
+COMP "MGTCLK_P" LOCATE = SITE "H4" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "aurora/reset_logic_i/debounce_gt_rst_r_3" BEL
+        "aurora/reset_logic_i/debounce_gt_rst_r_2" BEL
+        "aurora/reset_logic_i/debounce_gt_rst_r_1" BEL
+        "aurora/reset_logic_i/debounce_gt_rst_r_0";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

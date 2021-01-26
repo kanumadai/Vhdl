@@ -1,0 +1,91 @@
+//! **************************************************************************
+// Written by: Map O.40d on Wed Nov 26 10:55:26 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SFP_RX_N" LOCATE = SITE "G4" LEVEL 1;
+COMP "SFP_RX_P" LOCATE = SITE "G3" LEVEL 1;
+COMP "SFP_TX_N" LOCATE = SITE "K2" LEVEL 1;
+COMP "SFP_TX_P" LOCATE = SITE "K1" LEVEL 1;
+COMP "SFP_tx_en" LOCATE = SITE "A11" LEVEL 1;
+COMP "leds<0>" LOCATE = SITE "A19" LEVEL 1;
+COMP "leds<1>" LOCATE = SITE "A18" LEVEL 1;
+COMP "leds<2>" LOCATE = SITE "B16" LEVEL 1;
+COMP "leds<3>" LOCATE = SITE "B15" LEVEL 1;
+COMP "leds<4>" LOCATE = SITE "B14" LEVEL 1;
+COMP "leds<5>" LOCATE = SITE "B13" LEVEL 1;
+COMP "leds<6>" LOCATE = SITE "B19" LEVEL 1;
+COMP "leds<7>" LOCATE = SITE "B18" LEVEL 1;
+COMP "clkin" LOCATE = SITE "AA16" LEVEL 1;
+COMP "pci_exp_rxn<0>" LOCATE = SITE "AB2" LEVEL 1;
+COMP "pci_exp_rxp<0>" LOCATE = SITE "AB1" LEVEL 1;
+COMP "pci_exp_txn<0>" LOCATE = SITE "V2" LEVEL 1;
+COMP "pci_exp_txp<0>" LOCATE = SITE "V1" LEVEL 1;
+COMP "reset_n" LOCATE = SITE "A12" LEVEL 1;
+COMP "refclkout" LOCATE = SITE "A13" LEVEL 1;
+COMP "SFP_iic_sda" LOCATE = SITE "A8" LEVEL 1;
+COMP "SFP_iic_scl" LOCATE = SITE "A9" LEVEL 1;
+COMP "sys_clk_n" LOCATE = SITE "R3" LEVEL 1;
+COMP "sys_clk_p" LOCATE = SITE "R4" LEVEL 1;
+COMP "MGTCLK_N" LOCATE = SITE "J3" LEVEL 1;
+COMP "MGTCLK_P" LOCATE = SITE "J4" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL
+        "aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_10" BEL
+        "aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_9" BEL
+        "aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_8" BEL
+        "aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_7" BEL
+        "aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_6" BEL
+        "aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5" BEL
+        "aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4" BEL
+        "aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_3" BEL
+        "aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_2" BEL
+        "aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_1" BEL
+        "aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_0" BEL
+        "aurora/reset_logic_i/debounce_gt_rst_r_0" BEL
+        "aurora/reset_logic_i/debounce_gt_rst_r_1" BEL
+        "aurora/reset_logic_i/debounce_gt_rst_r_2" BEL
+        "aurora/reset_logic_i/debounce_gt_rst_r_3" BEL "clkin_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 62.5 MHz HIGH 50%;
+PIN reset_n_pins<0> = BEL "reset_n" PINNAME PAD;
+PIN MMCM_PHASE_CALIBRATION_ML_LUT2_12_pins<2> = BEL
+        "MMCM_PHASE_CALIBRATION_ML_LUT2_12" PINNAME O6;
+PIN MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_11_pins<3> = BEL
+        "MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_11" PINNAME SR;
+PIN MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_11_pins<2> = BEL
+        "MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_11" PINNAME Q;
+PIN MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_10_pins<3> = BEL
+        "MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_10" PINNAME SR;
+PIN MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_10_pins<2> = BEL
+        "MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_10" PINNAME Q;
+PIN MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_9_pins<3> = BEL
+        "MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_9" PINNAME SR;
+PIN MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_9_pins<2> = BEL
+        "MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_9" PINNAME Q;
+PIN MMCM_PHASE_CALIBRATION_ML_LDCPE_I0_8_pins<0> = BEL
+        "MMCM_PHASE_CALIBRATION_ML_LDCPE_I0_8" PINNAME CK;
+PIN MMCM_PHASE_CALIBRATION_ML_LUT2_20_pins<2> = BEL
+        "MMCM_PHASE_CALIBRATION_ML_LUT2_20" PINNAME O6;
+PIN MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_19_pins<2> = BEL
+        "MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_19" PINNAME Q;
+PIN MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_18_pins<2> = BEL
+        "MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_18" PINNAME Q;
+PIN MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_17_pins<2> = BEL
+        "MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_17" PINNAME Q;
+PIN MMCM_PHASE_CALIBRATION_ML_LDCPE_I0_16_pins<0> = BEL
+        "MMCM_PHASE_CALIBRATION_ML_LDCPE_I0_16" PINNAME CK;
+PIN "reset_n_pins<0>" TIG;
+PIN "MMCM_PHASE_CALIBRATION_ML_LUT2_12_pins<2>" TIG;
+PIN "MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_11_pins<3>" TIG;
+PIN "MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_11_pins<2>" TIG;
+PIN "MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_10_pins<3>" TIG;
+PIN "MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_10_pins<2>" TIG;
+PIN "MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_9_pins<3>" TIG;
+PIN "MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_9_pins<2>" TIG;
+PIN "MMCM_PHASE_CALIBRATION_ML_LDCPE_I0_8_pins<0>" TIG;
+PIN "MMCM_PHASE_CALIBRATION_ML_LUT2_20_pins<2>" TIG;
+PIN "MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_19_pins<2>" TIG;
+PIN "MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_18_pins<2>" TIG;
+PIN "MMCM_PHASE_CALIBRATION_ML_FDCPE_I0_17_pins<2>" TIG;
+PIN "MMCM_PHASE_CALIBRATION_ML_LDCPE_I0_16_pins<0>" TIG;
+SCHEMATIC END;
+

@@ -1,0 +1,55 @@
+Release 13.1 - xst O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:/LJW/DEC_V10.ise/DEC_V12_20140709v5/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to E:/LJW/DEC_V10.ise/DEC_V12_20140709v5/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "bmd1052/BMD_INTR_CTRL.v" in library work
+Compiling verilog file "bmd1052/BMD_EP_MEM.v" in library work
+Module <BMD_INTR_CTRL> compiled
+Compiling verilog file "bmd1052/BMD_EP_MEM_ACCESS.v" in library work
+Module <BMD_EP_MEM> compiled
+Compiling verilog file "bmd1052/BMD_64_TX_ENGINE.v" in library work
+Module <BMD_EP_MEM_ACCESS> compiled
+Compiling verilog file "bmd1052/BMD_64_RX_ENGINE.v" in library work
+Module <BMD_TX_ENGINE> compiled
+Compiling verilog file "bmd1052/nouse/BMD_TO_CTRL.v" in library work
+Module <BMD_RX_ENGINE> compiled
+Compiling verilog file "bmd1052/nouse/BMD_CFG_CTRL.v" in library work
+Module <BMD_TO_CTRL> compiled
+Compiling verilog file "bmd1052/BMD_EP.v" in library work
+Module <BMD_CFG_CTRL> compiled
+Compiling verilog file "bmd1052/BMD.v" in library work
+Module <BMD_EP> compiled
+Compiling verilog file "bmd1052/v5_blk_plus_pci_exp_64b_app.v" in library work
+Module <BMD> compiled
+Module <pci_exp_64b_app> compiled
+No errors in compilation
+Analysis of file <"pci_exp_64b_app.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> 
+
+Total memory usage is 119120 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

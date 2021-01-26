@@ -1,0 +1,81 @@
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1111/DEC_TOP.xst" -ofn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1111/DEC_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DEC_V11_V6.ucf -p xc6vlx75t-ff484-1 DEC_TOP.ngc DEC_TOP.ngd  
+map -intstyle ise -p xc6vlx75t-ff484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEC_TOP_map.ncd DEC_TOP.ngd DEC_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DEC_TOP_map.ncd DEC_TOP.ncd DEC_TOP.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml DEC_TOP.twx DEC_TOP.ncd -o DEC_TOP.twr DEC_TOP.pcf -ucf DEC_V11_V6.ucf 
+bitgen -intstyle ise -f DEC_TOP.ut DEC_TOP.ncd 
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1111/DEC_TOP.xst" -ofn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1111/DEC_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DEC_V11_V6.ucf -p xc6vlx75t-ff484-1 DEC_TOP.ngc DEC_TOP.ngd  
+map -intstyle ise -p xc6vlx75t-ff484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEC_TOP_map.ncd DEC_TOP.ngd DEC_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DEC_TOP_map.ncd DEC_TOP.ncd DEC_TOP.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml DEC_TOP.twx DEC_TOP.ncd -o DEC_TOP.twr DEC_TOP.pcf -ucf DEC_V11_V6.ucf 
+bitgen -intstyle ise -f DEC_TOP.ut DEC_TOP.ncd 
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1111/DEC_TOP.xst" -ofn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1111/DEC_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DEC_V11_V6.ucf -p xc6vlx75t-ff484-1 DEC_TOP.ngc DEC_TOP.ngd  
+map -intstyle ise -p xc6vlx75t-ff484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEC_TOP_map.ncd DEC_TOP.ngd DEC_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DEC_TOP_map.ncd DEC_TOP.ncd DEC_TOP.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml DEC_TOP.twx DEC_TOP.ncd -o DEC_TOP.twr DEC_TOP.pcf -ucf DEC_V11_V6.ucf 
+bitgen -intstyle ise -f DEC_TOP.ut DEC_TOP.ncd 
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1111/DEC_TOP.xst" -ofn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1111/DEC_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DEC_V11_V6.ucf -p xc6vlx75t-ff484-1 DEC_TOP.ngc DEC_TOP.ngd  
+map -intstyle ise -p xc6vlx75t-ff484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEC_TOP_map.ncd DEC_TOP.ngd DEC_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DEC_TOP_map.ncd DEC_TOP.ncd DEC_TOP.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml DEC_TOP.twx DEC_TOP.ncd -o DEC_TOP.twr DEC_TOP.pcf -ucf DEC_V11_V6.ucf 
+bitgen -intstyle ise -f DEC_TOP.ut DEC_TOP.ncd 
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1111/DEC_TOP.xst" -ofn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1111/DEC_TOP.syr" 
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1111/DEC_TOP.xst" -ofn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1111/DEC_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DEC_V11_V6.ucf -p xc6vlx75t-ff484-1 DEC_TOP.ngc DEC_TOP.ngd  
+map -intstyle ise -p xc6vlx75t-ff484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEC_TOP_map.ncd DEC_TOP.ngd DEC_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DEC_TOP_map.ncd DEC_TOP.ncd DEC_TOP.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml DEC_TOP.twx DEC_TOP.ncd -o DEC_TOP.twr DEC_TOP.pcf -ucf DEC_V11_V6.ucf 
+bitgen -intstyle ise -f DEC_TOP.ut DEC_TOP.ncd 
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1111/DEC_TOP.xst" -ofn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1111/DEC_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DEC_V11_V6.ucf -p xc6vlx75t-ff484-1 DEC_TOP.ngc DEC_TOP.ngd  
+map -intstyle ise -p xc6vlx75t-ff484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEC_TOP_map.ncd DEC_TOP.ngd DEC_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DEC_TOP_map.ncd DEC_TOP.ncd DEC_TOP.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml DEC_TOP.twx DEC_TOP.ncd -o DEC_TOP.twr DEC_TOP.pcf -ucf DEC_V11_V6.ucf 
+bitgen -intstyle ise -f DEC_TOP.ut DEC_TOP.ncd 
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1118/DEC_TOP.xst" -ofn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1118/DEC_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DEC_V11_V6.ucf -p xc6vlx75t-ff484-1 DEC_TOP.ngc DEC_TOP.ngd  
+map -intstyle ise -p xc6vlx75t-ff484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEC_TOP_map.ncd DEC_TOP.ngd DEC_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DEC_TOP_map.ncd DEC_TOP.ncd DEC_TOP.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml DEC_TOP.twx DEC_TOP.ncd -o DEC_TOP.twr DEC_TOP.pcf -ucf DEC_V11_V6.ucf 
+bitgen -intstyle ise -f DEC_TOP.ut DEC_TOP.ncd 
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1118/DEC_TOP.xst" -ofn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1118/DEC_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DEC_V11_V6.ucf -p xc6vlx75t-ff484-1 DEC_TOP.ngc DEC_TOP.ngd  
+map -intstyle ise -p xc6vlx75t-ff484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEC_TOP_map.ncd DEC_TOP.ngd DEC_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DEC_TOP_map.ncd DEC_TOP.ncd DEC_TOP.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml DEC_TOP.twx DEC_TOP.ncd -o DEC_TOP.twr DEC_TOP.pcf -ucf DEC_V11_V6.ucf 
+bitgen -intstyle ise -f DEC_TOP.ut DEC_TOP.ncd 
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1118/DEC_TOP.xst" -ofn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1118/DEC_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DEC_V11_V6.ucf -p xc6vlx75t-ff484-1 DEC_TOP.ngc DEC_TOP.ngd  
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1118/DEC_TOP.xst" -ofn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1118/DEC_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DEC_V11_V6.ucf -p xc6vlx75t-ff484-1 DEC_TOP.ngc DEC_TOP.ngd  
+map -intstyle ise -p xc6vlx75t-ff484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEC_TOP_map.ncd DEC_TOP.ngd DEC_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DEC_TOP_map.ncd DEC_TOP.ncd DEC_TOP.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml DEC_TOP.twx DEC_TOP.ncd -o DEC_TOP.twr DEC_TOP.pcf -ucf DEC_V11_V6.ucf 
+bitgen -intstyle ise -f DEC_TOP.ut DEC_TOP.ncd 
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1118/DEC_TOP.xst" -ofn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1118/DEC_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DEC_V11_V6.ucf -p xc6vlx75t-ff484-1 DEC_TOP.ngc DEC_TOP.ngd  
+map -intstyle ise -p xc6vlx75t-ff484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEC_TOP_map.ncd DEC_TOP.ngd DEC_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DEC_TOP_map.ncd DEC_TOP.ncd DEC_TOP.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml DEC_TOP.twx DEC_TOP.ncd -o DEC_TOP.twr DEC_TOP.pcf -ucf DEC_V11_V6.ucf 
+bitgen -intstyle ise -f DEC_TOP.ut DEC_TOP.ncd 
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1120/DEC_TOP.xst" -ofn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1120/DEC_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DEC_V11_V6.ucf -p xc6vlx75t-ff484-1 DEC_TOP.ngc DEC_TOP.ngd  
+map -intstyle ise -p xc6vlx75t-ff484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEC_TOP_map.ncd DEC_TOP.ngd DEC_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DEC_TOP_map.ncd DEC_TOP.ncd DEC_TOP.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml DEC_TOP.twx DEC_TOP.ncd -o DEC_TOP.twr DEC_TOP.pcf -ucf DEC_V11_V6.ucf 
+bitgen -intstyle ise -f DEC_TOP.ut DEC_TOP.ncd 
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1120/DEC_TOP.xst" -ofn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1120/DEC_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DEC_V11_V6.ucf -p xc6vlx75t-ff484-1 DEC_TOP.ngc DEC_TOP.ngd  
+map -intstyle ise -p xc6vlx75t-ff484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEC_TOP_map.ncd DEC_TOP.ngd DEC_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DEC_TOP_map.ncd DEC_TOP.ncd DEC_TOP.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml DEC_TOP.twx DEC_TOP.ncd -o DEC_TOP.twr DEC_TOP.pcf -ucf DEC_V11_V6.ucf 
+bitgen -intstyle ise -f DEC_TOP.ut DEC_TOP.ncd 
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1120/DEC_TOP.xst" -ofn "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_1120/DEC_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DEC_V11_V6.ucf -p xc6vlx75t-ff484-1 DEC_TOP.ngc DEC_TOP.ngd  
+map -intstyle ise -p xc6vlx75t-ff484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEC_TOP_map.ncd DEC_TOP.ngd DEC_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DEC_TOP_map.ncd DEC_TOP.ncd DEC_TOP.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml DEC_TOP.twx DEC_TOP.ncd -o DEC_TOP.twr DEC_TOP.pcf -ucf DEC_V11_V6.ucf 
+bitgen -intstyle ise -f DEC_TOP.ut DEC_TOP.ncd 

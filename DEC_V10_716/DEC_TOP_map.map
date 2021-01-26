@@ -1,0 +1,174 @@
+Release 13.1 Map O.40d (nt)
+Xilinx Map Application Log File for Design 'DEC_TOP'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc5vfx70t-ff1136-1 -w -logic_opt off -ol
+high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr
+off -lc off -power off -o DEC_TOP_map.ncd DEC_TOP.ngd DEC_TOP.pcf 
+Target Device  : xc5vfx70t
+Target Package : ff1136
+Target Speed   : -1
+Mapper Version : virtex5 -- $Revision: 1.55 $
+Mapped Date    : Mon Jul 21 15:19:44 2014
+
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 16 secs 
+Total CPU  time at the beginning of Placer: 14 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:f9e0a312) REAL time: 18 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:f9e0a312) REAL time: 18 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:cbcfa86a) REAL time: 18 secs 
+
+Phase 4.37  Local Placement Optimization
+Phase 4.37  Local Placement Optimization (Checksum:cbcfa86a) REAL time: 18 secs 
+
+Phase 5.33  Local Placement Optimization
+Phase 5.33  Local Placement Optimization (Checksum:cbcfa86a) REAL time: 18 secs 
+
+Phase 6.32  Local Placement Optimization
+Phase 6.32  Local Placement Optimization (Checksum:cbcfa86a) REAL time: 19 secs 
+
+Phase 7.2  Initial Clock and IO Placement
+
+Phase 7.2  Initial Clock and IO Placement (Checksum:aeff176e) REAL time: 19 secs 
+
+Phase 8.36  Local Placement Optimization
+Phase 8.36  Local Placement Optimization (Checksum:aeff176e) REAL time: 19 secs 
+
+Phase 9.30  Global Clock Region Assignment
+Phase 9.30  Global Clock Region Assignment (Checksum:aeff176e) REAL time: 19 secs 
+
+Phase 10.3  Local Placement Optimization
+Phase 10.3  Local Placement Optimization (Checksum:aeff176e) REAL time: 19 secs 
+
+Phase 11.5  Local Placement Optimization
+Phase 11.5  Local Placement Optimization (Checksum:aeff176e) REAL time: 19 secs 
+
+Phase 12.8  Global Placement
+.....................................................................................................................................
+.........................................
+Phase 12.8  Global Placement (Checksum:e5427f2d) REAL time: 23 secs 
+
+Phase 13.29  Local Placement Optimization
+Phase 13.29  Local Placement Optimization (Checksum:e5427f2d) REAL time: 23 secs 
+
+Phase 14.5  Local Placement Optimization
+Phase 14.5  Local Placement Optimization (Checksum:e5427f2d) REAL time: 23 secs 
+
+Phase 15.18  Placement Optimization
+Phase 15.18  Placement Optimization (Checksum:4360c337) REAL time: 25 secs 
+
+Phase 16.5  Local Placement Optimization
+Phase 16.5  Local Placement Optimization (Checksum:4360c337) REAL time: 25 secs 
+
+Phase 17.34  Placement Validation
+Phase 17.34  Placement Validation (Checksum:4360c337) REAL time: 25 secs 
+
+Total REAL time to Placer completion: 25 secs 
+Total CPU  time to Placer completion: 22 secs 
+Running post-placement packing...
+Writing output files...
+WARNING:PhysDesignRules:1842 - One or more GTXs are being used in this design.
+   Evaluate the SelectIO-To-GTX Crosstalk section of the Virtex-5 RocketIO GTX
+   Transceiver User Guide to ensure that the design SelectIO usage meets the
+   guidelines to minimize the impact on GTX performance. 
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   pcie/app/BMD/BMD_EP/EP_TX/BMD_INTR_CTRL/intr_done_or0000 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   pcie/app/BMD/BMD_EP/EP_TX/BMD_INTR_CTRL/intr_n_or0000 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   pcie/ep/pcie_ep0/pcie_blk/SIO/.pcie_gt_wrapper_i/icdrreset<0> is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    4
+Slice Logic Utilization:
+  Number of Slice Registers:                 4,807 out of  44,800   10%
+    Number used as Flip Flops:               4,803
+    Number used as Latches:                      4
+  Number of Slice LUTs:                      4,483 out of  44,800   10%
+    Number used as logic:                    4,223 out of  44,800    9%
+      Number using O6 output only:           3,697
+      Number using O5 output only:             342
+      Number using O5 and O6:                  184
+    Number used as Memory:                     230 out of  13,120    1%
+      Number used as Dual Port RAM:             42
+        Number using O6 output only:             6
+        Number using O5 and O6:                 36
+      Number used as Shift Register:           188
+        Number using O6 output only:           188
+    Number used as exclusive route-thru:        30
+  Number of route-thrus:                       382
+    Number using O6 output only:               371
+    Number using O5 output only:                10
+    Number using O5 and O6:                      1
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 2,830 out of  11,200   25%
+  Number of LUT Flip Flop pairs used:        6,608
+    Number with an unused Flip Flop:         1,801 out of   6,608   27%
+    Number with an unused LUT:               2,125 out of   6,608   32%
+    Number of fully used LUT-FF pairs:       2,682 out of   6,608   40%
+    Number of unique control sets:             633
+    Number of slice register sites lost
+      to control set restrictions:           1,539 out of  44,800    3%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        14 out of     640    2%
+    Number of LOCed IOBs:                       14 out of      14  100%
+    Number of bonded IPADs:                      8
+      Number of LOCed IPADs:                     8 out of       8  100%
+    Number of bonded OPADs:                      4
+      Number of LOCed OPADs:                     4 out of       4  100%
+
+Specific Feature Utilization:
+  Number of BlockRAM/FIFO:                      22 out of     148   14%
+    Number using BlockRAM only:                 22
+    Total primitives used:
+      Number of 36k BlockRAM used:              20
+      Number of 18k BlockRAM used:               2
+    Total Memory used (KB):                    756 out of   5,328   14%
+  Number of BUFG/BUFGCTRLs:                      8 out of      32   25%
+    Number used as BUFGs:                        8
+  Number of BUFDSs:                              2 out of       8   25%
+  Number of GTX_DUALs:                           2 out of       8   25%
+  Number of PCIEs:                               1 out of       3   33%
+  Number of PLL_ADVs:                            2 out of       6   33%
+
+Average Fanout of Non-Clock Nets:                3.87
+
+Peak Memory Usage:  390 MB
+Total REAL time to MAP completion:  29 secs 
+Total CPU time to MAP completion:   26 secs 
+
+Mapping completed.
+See MAP report file "DEC_TOP_map.mrp" for details.

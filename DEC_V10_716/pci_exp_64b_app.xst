@@ -1,0 +1,5 @@
+set -tmpdir "E:/LJW/DEC_V10.ise/DEC_V12_20140709v5/xst/projnav.tmp"
+set -xsthdpdir "E:/LJW/DEC_V10.ise/DEC_V12_20140709v5/xst"
+elaborate
+-ifn pci_exp_64b_app.prj
+-ifmt mixed

@@ -1,0 +1,21 @@
+Release 13.1 Drc O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Wed Nov 26 10:56:35 2014
+
+drc -z DEC_TOP.ncd DEC_TOP.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   pcie/app/BMD/BMD_EP/EP_TX/BMD_INTR_CTRL/_n0068 is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   pcie/app/BMD/BMD_EP/EP_TX/BMD_INTR_CTRL/_n0069 is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   pcie/app/BMD/BMD_EP/EP_TX/BMD_INTR_CTRL/_n0067 is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+DRC detected 0 errors and 3 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

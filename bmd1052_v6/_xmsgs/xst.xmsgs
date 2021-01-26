@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_rx_valid_filter_v6.v" Line 85: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_RX_VALID_FILTER_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_rx_valid_filter_v6.v" Line 87: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_RX_VALID_FILTER_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_rx_valid_filter_v6.v" Line 88: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_RX_VALID_FILTER_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_rx_valid_filter_v6.v" Line 89: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_RX_VALID_FILTER_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_rx_valid_filter_v6.v" Line 90: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_RX_VALID_FILTER_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_rx_valid_filter_v6.v" Line 91: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_RX_VALID_FILTER_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_rx_valid_filter_v6.v" Line 93: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_RX_VALID_FILTER_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_rx_valid_filter_v6.v" Line 94: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_RX_VALID_FILTER_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_rx_valid_filter_v6.v" Line 95: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_RX_VALID_FILTER_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_rx_valid_filter_v6.v" Line 96: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_RX_VALID_FILTER_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_rx_valid_filter_v6.v" Line 107: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_RX_VALID_FILTER_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_rx_valid_filter_v6.v" Line 108: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_RX_VALID_FILTER_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_rx_valid_filter_v6.v" Line 109: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_RX_VALID_FILTER_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_rx_valid_filter_v6.v" Line 110: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_RX_VALID_FILTER_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_drp_chanalign_fix_3752_v6.v" Line 90: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_DRP_CHANALIGN_FIX_3752_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_drp_chanalign_fix_3752_v6.v" Line 91: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_DRP_CHANALIGN_FIX_3752_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_drp_chanalign_fix_3752_v6.v" Line 92: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_DRP_CHANALIGN_FIX_3752_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_drp_chanalign_fix_3752_v6.v" Line 93: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_DRP_CHANALIGN_FIX_3752_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_drp_chanalign_fix_3752_v6.v" Line 94: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_DRP_CHANALIGN_FIX_3752_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_drp_chanalign_fix_3752_v6.v" Line 95: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_DRP_CHANALIGN_FIX_3752_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_drp_chanalign_fix_3752_v6.v" Line 96: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_DRP_CHANALIGN_FIX_3752_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_drp_chanalign_fix_3752_v6.v" Line 97: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_DRP_CHANALIGN_FIX_3752_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_drp_chanalign_fix_3752_v6.v" Line 98: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_DRP_CHANALIGN_FIX_3752_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_drp_chanalign_fix_3752_v6.v" Line 99: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_DRP_CHANALIGN_FIX_3752_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_drp_chanalign_fix_3752_v6.v" Line 100: Parameter declaration becomes local in <arg fmt="%s" index="1">GTX_DRP_CHANALIGN_FIX_3752_V6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_pipe_misc_v6.v" Line 90: Parameter declaration becomes local in <arg fmt="%s" index="1">pcie_pipe_misc_v6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_pipe_lane_v6.v" Line 103: Parameter declaration becomes local in <arg fmt="%s" index="1">pcie_pipe_lane_v6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_brams_v6.v" Line 120: Parameter declaration becomes local in <arg fmt="%s" index="1">pcie_brams_v6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_upconfig_fix_3451_v6.v" Line 85: Parameter declaration becomes local in <arg fmt="%s" index="1">pcie_upconfig_fix_3451_v6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_pipe_v6.v" Line 325: Parameter declaration becomes local in <arg fmt="%s" index="1">pcie_pipe_v6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_gtx_v6.v" Line 216: Parameter declaration becomes local in <arg fmt="%s" index="1">pcie_gtx_v6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_reset_delay_v6.v" Line 76: Parameter declaration becomes local in <arg fmt="%s" index="1">pcie_reset_delay_v6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_clocking_v6.v" Line 86: Parameter declaration becomes local in <arg fmt="%s" index="1">pcie_clocking_v6</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\xilinx_pci_exp_ep.v" Line 341: Port <arg fmt="%s" index="1">cfg_pmcsr_pme_en</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\v6_pci_exp_64b_app.v" Line 214: Port <arg fmt="%s" index="1">trn_rnp_ok_n</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\v6_pci_exp_64b_app.v" Line 177: Assignment to <arg fmt="%s" index="1">trn_tecrc_gen_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\common\BMD_EP.v" Line 399: Assignment to <arg fmt="%s" index="1">mrd_phant_func_dis1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\common\BMD_EP.v" Line 414: Assignment to <arg fmt="%s" index="1">mwr_phant_func_dis1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\common\BMD_EP.v" Line 451: Assignment to <arg fmt="%s" index="1">rd_metering</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\BMD_64_RX_ENGINE.v" Line 368: Result of <arg fmt="%d" index="1">30</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\BMD_64_RX_ENGINE.v" Line 210: Assignment to <arg fmt="%s" index="1">trn_rsrc_rdy_n_q</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\BMD_64_TX_ENGINE.v" Line 292: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">7</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1308" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\common\BMD_INTR_CTRL.v" Line 106: Found full_case directive in module <arg fmt="%s" index="1">BMD_INTR_CTRL</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\common\BMD_INTR_CTRL.v" Line 220: Signal &lt;<arg fmt="%s" index="1">cfg_interrupt_legacyclr</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1308" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\common\BMD_INTR_CTRL.v" Line 178: Found full_case directive in module <arg fmt="%s" index="1">BMD_INTR_CTRL</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1308" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\common\BMD_INTR_CTRL.v" Line 255: Found full_case directive in module <arg fmt="%s" index="1">BMD_INTR_CTRL</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\common\BMD_EP.v" Line 586: Assignment to <arg fmt="%s" index="1">rd_addr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\common\BMD_CFG_CTRL.v" Line 84: Assignment to <arg fmt="%s" index="1">cfg_msi_control</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\v6_pci_exp_64b_app.v" Line 220: Input port <arg fmt="%s" index="1">cfg_phant_func_en</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_v6_0.v" Line 718: Assignment to <arg fmt="%s" index="1">block_clk</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1166: Assignment to <arg fmt="%s" index="1">LL2BADDLLPERRN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1167: Assignment to <arg fmt="%s" index="1">LL2BADTLPERRN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1168: Assignment to <arg fmt="%s" index="1">LL2PROTOCOLERRN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1169: Assignment to <arg fmt="%s" index="1">LL2REPLAYROERRN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1170: Assignment to <arg fmt="%s" index="1">LL2REPLAYTOERRN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1171: Assignment to <arg fmt="%s" index="1">LL2SUSPENDOKN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1172: Assignment to <arg fmt="%s" index="1">LL2TFCINIT1SEQN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1173: Assignment to <arg fmt="%s" index="1">LL2TFCINIT2SEQN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1252: Assignment to <arg fmt="%s" index="1">PL2LINKUPN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1253: Assignment to <arg fmt="%s" index="1">PL2RECEIVERERRN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1254: Assignment to <arg fmt="%s" index="1">PL2RECOVERYN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1255: Assignment to <arg fmt="%s" index="1">PL2RXELECIDLE</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1256: Assignment to <arg fmt="%s" index="1">PL2SUSPENDOK</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1259: Assignment to <arg fmt="%s" index="1">TL2ASPMSUSPENDCREDITCHECKOKN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1260: Assignment to <arg fmt="%s" index="1">TL2ASPMSUSPENDREQN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1261: Assignment to <arg fmt="%s" index="1">TL2PPMSUSPENDOKN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1273: Assignment to <arg fmt="%s" index="1">TRNRDLLPSRCRDYN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_pipe_v6.v" Line 330: Net &lt;<arg fmt="%s" index="1">pipe_rx1_char_is_k_q[1]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_pipe_v6.v" Line 331: Net &lt;<arg fmt="%s" index="1">pipe_rx1_data_q[15]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_pipe_v6.v" Line 332: Net &lt;<arg fmt="%s" index="1">pipe_rx2_char_is_k_q[1]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_pipe_v6.v" Line 333: Net &lt;<arg fmt="%s" index="1">pipe_rx2_data_q[15]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_pipe_v6.v" Line 334: Net &lt;<arg fmt="%s" index="1">pipe_rx3_char_is_k_q[1]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_pipe_v6.v" Line 335: Net &lt;<arg fmt="%s" index="1">pipe_rx3_data_q[15]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_pipe_v6.v" Line 336: Net &lt;<arg fmt="%s" index="1">pipe_rx4_char_is_k_q[1]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_pipe_v6.v" Line 337: Net &lt;<arg fmt="%s" index="1">pipe_rx4_data_q[15]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_pipe_v6.v" Line 338: Net &lt;<arg fmt="%s" index="1">pipe_rx5_char_is_k_q[1]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_pipe_v6.v" Line 339: Net &lt;<arg fmt="%s" index="1">pipe_rx5_data_q[15]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_pipe_v6.v" Line 340: Net &lt;<arg fmt="%s" index="1">pipe_rx6_char_is_k_q[1]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_pipe_v6.v" Line 341: Net &lt;<arg fmt="%s" index="1">pipe_rx6_data_q[15]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_pipe_v6.v" Line 342: Net &lt;<arg fmt="%s" index="1">pipe_rx7_char_is_k_q[1]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_pipe_v6.v" Line 343: Net &lt;<arg fmt="%s" index="1">pipe_rx7_data_q[15]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_drp_chanalign_fix_3752_v6.v" Line 180: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_drp_chanalign_fix_3752_v6.v" Line 229: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 473: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DFETAP1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 487: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 488: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 496: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NORTHREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 497: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NORTHREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 563: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SOUTHREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 564: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SOUTHREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 587: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXENPRBSTST</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 589: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXHEADER</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 604: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPOSTEMPHASIS</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 606: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPRBSFORCEERR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 607: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPREEMPHASIS</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 612: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSEQUENCE</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 613: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSTARTSEQ</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 617: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">USRCODEERR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 618: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">IGNORESIGDET</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 619: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PERFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 620: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PERFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\gtx_wrapper_v6.v" Line 623: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXDLYALIGNRESET</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_bram_v6.v" Line 257: Port <arg fmt="%s" index="1">DOPB</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1886: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">mim_tx_rdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">72</arg>-bit while actual signal size is <arg fmt="%d" index="1">69</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_2_0_v6.v" Line 1894: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">mim_rx_rdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">72</arg>-bit while actual signal size is <arg fmt="%d" index="1">68</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\DAS\DEC_V10\DEC_V10.ise\bmd1052_v6\ipcore_dir\pcie_v6_0\source\pcie_v6_0.v" Line 985: Assignment to <arg fmt="%s" index="1">rx_func_level_reset_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="3136" delta="old" >Property &quot;<arg fmt="%s" index="1">syn_noclockbuf</arg>&quot; (value &quot;<arg fmt="%s" index="2">1</arg>&quot;) has not been applied on proper HDL object.
+</msg>
+
+<msg type="warning" file="Xst" num="3136" delta="old" >Property &quot;<arg fmt="%s" index="1">syn_noclockbuf</arg>&quot; (value &quot;<arg fmt="%s" index="2">1</arg>&quot;) has not been applied on proper HDL object.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/xilinx_pci_exp_ep.v</arg>&quot; line <arg fmt="%s" index="2">341</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_pmcsr_powerstate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ep</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/xilinx_pci_exp_ep.v</arg>&quot; line <arg fmt="%s" index="2">341</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_pmcsr_pme_en</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ep</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/xilinx_pci_exp_ep.v</arg>&quot; line <arg fmt="%s" index="2">341</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_pmcsr_pme_status</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ep</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">cfg_phant_func_supported</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">BMD</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">cfg_phant_func_en</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">BMD</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_fc_cpld&lt;11:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_fc_cplh&lt;7:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_fc_npd&lt;11:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_fc_nph&lt;7:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_fc_pd&lt;11:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_fc_ph&lt;7:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_status&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_command&lt;15:3&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_command&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_dstatus&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_dcommand&lt;15:15&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_dcommand&lt;11:9&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_dcommand&lt;4:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_lstatus&lt;15:10&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_lstatus&lt;3:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_lcommand&lt;15:4&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_lcommand&lt;2:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_dcommand2&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_pcie_link_state_n&lt;2:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_ltssm_state&lt;5:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_sel_link_width&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_initial_link_width&lt;2:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_lane_reversal_mode&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_tcfg_req_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_terr_drop_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_rerrfwd_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_err_cpl_rdy_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_interrupt_msixenable</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_interrupt_msixfm</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_sel_link_rate</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_link_gen2_capable</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_link_partner_gen2_supported</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_link_upcfg_capable</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_received_hot_rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/v6_pci_exp_64b_app.v</arg>&quot; line <arg fmt="%s" index="2">220</arg>: Output port &lt;<arg fmt="%s" index="3">cpld_data_size_hwm</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">BMD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/v6_pci_exp_64b_app.v</arg>&quot; line <arg fmt="%s" index="2">220</arg>: Output port &lt;<arg fmt="%s" index="3">cur_rd_count_hwm</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">BMD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/v6_pci_exp_64b_app.v</arg>&quot; line <arg fmt="%s" index="2">220</arg>: Output port &lt;<arg fmt="%s" index="3">cpld_size</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">BMD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/v6_pci_exp_64b_app.v</arg>&quot; line <arg fmt="%s" index="2">220</arg>: Output port &lt;<arg fmt="%s" index="3">cur_mrd_count</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">BMD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/v6_pci_exp_64b_app.v</arg>&quot; line <arg fmt="%s" index="2">220</arg>: Output port &lt;<arg fmt="%s" index="3">trn_rnp_ok_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">BMD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/v6_pci_exp_64b_app.v</arg>&quot; line <arg fmt="%s" index="2">220</arg>: Output port &lt;<arg fmt="%s" index="3">trn_rcpl_streaming_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">BMD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/v6_pci_exp_64b_app.v</arg>&quot; line <arg fmt="%s" index="2">220</arg>: Output port &lt;<arg fmt="%s" index="3">trn_tstr_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">BMD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pl_directed_link_change</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pl_directed_link_width</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pl_directed_link_speed</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pl_directed_link_auton</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pl_upstream_prefer_deemph</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/common/bmd_ep.v</arg>&quot; line <arg fmt="%s" index="2">363</arg>: Output port &lt;<arg fmt="%s" index="3">mrd_phant_func_dis1_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">EP_MEM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/common/bmd_ep.v</arg>&quot; line <arg fmt="%s" index="2">363</arg>: Output port &lt;<arg fmt="%s" index="3">mwr_phant_func_dis1_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">EP_MEM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/common/bmd_ep.v</arg>&quot; line <arg fmt="%s" index="2">363</arg>: Output port &lt;<arg fmt="%s" index="3">rd_metering_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">EP_MEM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/common/bmd_ep.v</arg>&quot; line <arg fmt="%s" index="2">552</arg>: Output port &lt;<arg fmt="%s" index="3">rd_addr_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">EP_TX</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">wr_be_i&lt;7:4&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="old" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">syn_direct_enable</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="old" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">syn_direct_enable</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">wr_d_i&lt;8:15&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">wr_d_i&lt;17:20&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">wr_d_i&lt;24:31&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_rd&lt;51:48&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_rbar_hit_n&lt;6:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_rsrc_dsc_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_tbuf_av&lt;5:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">req_be_i&lt;7:4&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">req_addr_i&lt;10:9&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">mwr_len_i&lt;31:11&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">mwr_tag_i&lt;7:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">mwr_count_i&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">mrd_len_i&lt;31:11&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">mrd_tag_i&lt;7:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">mrd_count_i&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">mrd_len_i&lt;31:11&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cpld_found_i&lt;31:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">rd_metering_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_do&lt;31:10&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_do&lt;3:3&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">708</arg>: Output port &lt;<arg fmt="%s" index="3">block_clk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_clocking_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGTRANSACTIONADDR</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGVCTCVCMAP</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">PLRXPMSTATE</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">PLTXPMSTATE</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">DBGVECA</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">DBGVECB</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">DBGVECC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">PLDBGVEC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">PCIEDRPDO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">RECEIVEDFUNCLVLRSTN</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">LNKCLKEN</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">TRNRECRCERRN</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">TRNTDLLPDSTRDYN</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGAERECRCCHECKEN</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGAERECRCGENEN</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGERRAERHEADERLOGSETN</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDASSERTINTA</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDASSERTINTB</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDASSERTINTC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDASSERTINTD</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDDEASSERTINTA</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDDEASSERTINTB</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDDEASSERTINTC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDDEASSERTINTD</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDERRCOR</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDERRFATAL</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDERRNONFATAL</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDPMASNAK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDPMETOACK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDPMPME</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDSETSLOTPOWERLIMIT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDUNLOCK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGPMRCVASREQL1N</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGPMRCVENTERL1N</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGPMRCVENTERL23N</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGPMRCVREQACKN</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGSLOTCONTROLELECTROMECHILCTLPULSE</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGTRANSACTION</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">CFGTRANSACTIONTYPE</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">PLPHYLNKUPN</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRA</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRB</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRD</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRE</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRF</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRG</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRH</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRI</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRJ</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_v6_0.v</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">PCIEDRPDRDY</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">sel_lnk_width&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">sel_lnk_rate</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">block_clk</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_2_0_v6.v</arg>&quot; line <arg fmt="%s" index="2">1439</arg>: Output port &lt;<arg fmt="%s" index="3">pipe_tx_reset_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_pipe_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_2_0_v6.v</arg>&quot; line <arg fmt="%s" index="2">1439</arg>: Output port &lt;<arg fmt="%s" index="3">pipe_tx_swing_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_pipe_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx1_char_is_k_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx1_data_i&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx1_powerdown_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx1_char_is_k_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx1_data_i&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx1_status_i&lt;2:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx2_char_is_k_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx2_data_i&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx2_powerdown_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx2_char_is_k_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx2_data_i&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx2_status_i&lt;2:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx3_char_is_k_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx3_data_i&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx3_powerdown_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx3_char_is_k_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx3_data_i&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx3_status_i&lt;2:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx4_char_is_k_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx4_data_i&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx4_powerdown_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx4_char_is_k_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx4_data_i&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx4_status_i&lt;2:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx5_char_is_k_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx5_data_i&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx5_powerdown_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx5_char_is_k_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx5_data_i&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx5_status_i&lt;2:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx6_char_is_k_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx6_data_i&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx6_powerdown_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx6_char_is_k_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx6_data_i&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx6_status_i&lt;2:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx7_char_is_k_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx7_data_i&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx7_powerdown_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx7_char_is_k_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx7_data_i&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx7_status_i&lt;2:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_ltssm_state&lt;5:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx1_polarity_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx1_compliance_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx1_elec_idle_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx1_valid_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx1_chanisaligned_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx1_phy_status_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx1_elec_idle_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx2_polarity_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx2_compliance_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx2_elec_idle_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx2_valid_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx2_chanisaligned_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx2_phy_status_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx2_elec_idle_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx3_polarity_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx3_compliance_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx3_elec_idle_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx3_valid_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx3_chanisaligned_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx3_phy_status_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx3_elec_idle_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx4_polarity_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx4_compliance_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx4_elec_idle_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx4_valid_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx4_chanisaligned_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx4_phy_status_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx4_elec_idle_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx5_polarity_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx5_compliance_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx5_elec_idle_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx5_valid_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx5_chanisaligned_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx5_phy_status_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx5_elec_idle_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx6_polarity_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx6_compliance_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx6_elec_idle_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx6_valid_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx6_chanisaligned_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx6_phy_status_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx6_elec_idle_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx7_polarity_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx7_compliance_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx7_elec_idle_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx7_valid_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx7_chanisaligned_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx7_phy_status_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx7_elec_idle_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pipe_rx1_char_is_k_q</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pipe_rx1_data_q</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pipe_rx2_char_is_k_q</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pipe_rx2_data_q</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pipe_rx3_char_is_k_q</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pipe_rx3_data_q</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pipe_rx4_char_is_k_q</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pipe_rx4_data_q</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pipe_rx5_char_is_k_q</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pipe_rx5_data_q</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pipe_rx6_char_is_k_q</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pipe_rx6_data_q</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pipe_rx7_char_is_k_q</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pipe_rx7_data_q</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">rst_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">rst_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx_margin&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx1_powerdown&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx2_powerdown&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx3_powerdown&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx4_powerdown&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx5_powerdown&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx6_powerdown&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx7_powerdown&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx_reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx1_polarity</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx2_polarity</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx3_polarity</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx4_polarity</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx5_polarity</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx6_polarity</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx7_polarity</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/pcie_gtx_v6.v</arg>&quot; line <arg fmt="%s" index="2">254</arg>: Output port &lt;<arg fmt="%s" index="3">GTRefClkout</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtx_v6_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/das/dec_v10/dec_v10.ise/bmd1052_v6/ipcore_dir/pcie_v6_0/source/gtx_wrapper_v6.v</arg>&quot; line <arg fmt="%s" index="2">275</arg>: Output port &lt;<arg fmt="%s" index="3">drpstate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXD[0].GTX_DRP_CHANALIGN_FIX_3752</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">GTRefClkout</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">dout&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">RATEDONE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">waddr_i&lt;12:11&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">raddr_i&lt;12:11&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">reset_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_ltssm_state&lt;5:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_directed_link_change&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_link_status_negotiated_width&lt;3:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx0_data&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx0_char_isk&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_phy_lnkup_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_sel_lnk_rate</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">mwr_len_byte_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">EP_TX</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mwr_len_byte_1&gt; &lt;mrd_len_byte_0&gt; &lt;mrd_len_byte_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">mwr_len_o_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">EP_MEM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mwr_len_o_17&gt; &lt;mwr_len_o_18&gt; &lt;mwr_len_o_19&gt; &lt;mwr_len_o_20&gt; &lt;mwr_len_o_21&gt; &lt;mwr_len_o_22&gt; &lt;mwr_len_o_23&gt; &lt;mwr_len_o_24&gt; &lt;mwr_len_o_25&gt; &lt;mwr_len_o_26&gt; &lt;mwr_len_o_27&gt; &lt;mwr_len_o_28&gt; &lt;mwr_len_o_29&gt; &lt;mwr_len_o_30&gt; &lt;mwr_len_o_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">mrd_len_o_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">EP_MEM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mrd_len_o_17&gt; &lt;mrd_len_o_18&gt; &lt;mrd_len_o_19&gt; &lt;mrd_len_o_20&gt; &lt;mrd_len_o_21&gt; &lt;mrd_len_o_22&gt; &lt;mrd_len_o_23&gt; &lt;mrd_len_o_24&gt; &lt;mrd_len_o_25&gt; &lt;mrd_len_o_26&gt; &lt;mrd_len_o_27&gt; &lt;mrd_len_o_28&gt; &lt;mrd_len_o_29&gt; &lt;mrd_len_o_30&gt; &lt;mrd_len_o_31&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">mwr_len_byte_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">EP_TX</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">req_be_o_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EP_RX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">req_be_o_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EP_RX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">req_be_o_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EP_RX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">req_be_o_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EP_RX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_o_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EP_RX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_o_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EP_RX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_o_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EP_RX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_o_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EP_RX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">wr_be_o_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EP_RX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">wr_be_o_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EP_RX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">wr_be_o_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EP_RX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">wr_be_o_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EP_RX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mrd_len_o_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EP_MEM</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mwr_len_o_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EP_MEM</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">mrd_len_o</arg>&lt;<arg fmt="%d" index="2">31</arg>:<arg fmt="%d" index="3">16</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">BMD_EP_MEM</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">mwr_len_o</arg>&lt;<arg fmt="%d" index="2">31</arg>:<arg fmt="%d" index="3">16</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">BMD_EP_MEM</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram__n0718</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram__n0098</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">mwr_len_byte_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_TX_ENGINE</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mwr_len_byte_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_TX_ENGINE</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mrd_len_byte_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_TX_ENGINE</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mrd_len_byte_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_TX_ENGINE</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">bmd_64_rx_state_q_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_RX_ENGINE</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bmd_64_rx_state_q_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_RX_ENGINE</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bmd_64_rx_state_q_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_RX_ENGINE</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bmd_64_rx_state_q_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_RX_ENGINE</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bmd_64_rx_state_q_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_RX_ENGINE</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">reg_count_23_16_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_reset_delay_v6</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">reg_count_23_16_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_reset_delay_v6</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">reg_count_23_16_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_reset_delay_v6</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pmwr_addr_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BMD_TX_ENGINE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pmwr_addr_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BMD_TX_ENGINE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pmrd_addr_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BMD_TX_ENGINE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pmrd_addr_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BMD_TX_ENGINE</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">pcie_bram_i/pcie_brams_tx/brams[3].ram/use_ramb36.ramb36</arg> in unit <arg fmt="%s" index="2">pcie_bram_i/pcie_brams_tx/brams[3].ram/use_ramb36.ramb36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">pcie_bram_i/pcie_brams_tx/brams[2].ram/use_ramb36.ramb36</arg> in unit <arg fmt="%s" index="2">pcie_bram_i/pcie_brams_tx/brams[2].ram/use_ramb36.ramb36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">pcie_bram_i/pcie_brams_tx/brams[1].ram/use_ramb36.ramb36</arg> in unit <arg fmt="%s" index="2">pcie_bram_i/pcie_brams_tx/brams[1].ram/use_ramb36.ramb36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">pcie_bram_i/pcie_brams_tx/brams[0].ram/use_ramb36.ramb36</arg> in unit <arg fmt="%s" index="2">pcie_bram_i/pcie_brams_tx/brams[0].ram/use_ramb36.ramb36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">pcie_bram_i/pcie_brams_rx/brams[3].ram/use_ramb36.ramb36</arg> in unit <arg fmt="%s" index="2">pcie_bram_i/pcie_brams_rx/brams[3].ram/use_ramb36.ramb36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">pcie_bram_i/pcie_brams_rx/brams[2].ram/use_ramb36.ramb36</arg> in unit <arg fmt="%s" index="2">pcie_bram_i/pcie_brams_rx/brams[2].ram/use_ramb36.ramb36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">pcie_bram_i/pcie_brams_rx/brams[1].ram/use_ramb36.ramb36</arg> in unit <arg fmt="%s" index="2">pcie_bram_i/pcie_brams_rx/brams[1].ram/use_ramb36.ramb36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">pcie_bram_i/pcie_brams_rx/brams[0].ram/use_ramb36.ramb36</arg> in unit <arg fmt="%s" index="2">pcie_bram_i/pcie_brams_rx/brams[0].ram/use_ramb36.ramb36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">req_compl_o</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BMD_RX_ENGINE</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;bmd_64_rx_state_FSM_FFd6&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">cfg_dwaddr_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_CFG_CTRL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cfg_dwaddr_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_CFG_CTRL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cfg_dwaddr_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_CFG_CTRL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cfg_dwaddr_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_CFG_CTRL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cfg_dwaddr_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_CFG_CTRL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">cfg_dwaddr_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_CFG_CTRL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cfg_dwaddr_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_CFG_CTRL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cfg_dwaddr_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_CFG_CTRL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cfg_dwaddr_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_CFG_CTRL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cfg_dwaddr_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BMD_CFG_CTRL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1303" delta="old" >From in and out of unit <arg fmt="%s" index="1">ep/pcie_2_0_i</arg>, both signals <arg fmt="%s" index="2">USERCLK</arg> and <arg fmt="%s" index="3">trn_clk_c</arg> have a KEEP attribute, signal <arg fmt="%s" index="4">USERCLK</arg> will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/trn_rrem_n_q_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">app/BMD</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/trn_rrem_n_q_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">app/BMD</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/trn_rrem_n_q_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">app/BMD</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/trn_rrem_n_q_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">app/BMD</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/wr_be_o_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/wr_be_o_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/wr_be_o_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/wr_be_o_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/addr_o_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/addr_o_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/addr_o_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/addr_o_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/req_be_o_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/req_be_o_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/req_be_o_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/req_be_o_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cur_rd_count_hwm_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cur_rd_count_hwm_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cur_rd_count_hwm_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cur_rd_count_hwm_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cur_rd_count_hwm_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cur_rd_count_hwm_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cur_rd_count_hwm_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cur_rd_count_hwm_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cur_rd_count_hwm_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cur_rd_count_hwm_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cur_rd_count_hwm_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cur_rd_count_hwm_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cur_rd_count_hwm_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cur_rd_count_hwm_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cur_rd_count_hwm_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cur_rd_count_hwm_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_data_size_hwm_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BMD_EP/RD_THR/cpld_found</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/req_len_o_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">app/BMD</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/req_len_o_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">app/BMD</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/req_len_o_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">app/BMD</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/req_len_o_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">app/BMD</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/req_len_o_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">app/BMD</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/req_len_o_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">app/BMD</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/req_len_o_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">app/BMD</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/req_len_o_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">app/BMD</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">BMD_EP/EP_RX/req_len_o_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">app/BMD</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ep/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[0].GTX_DRP_CHANALIGN_FIX_3752/daddr_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xilinx_pci_exp_ep</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ep/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[0].GTX_DRP_CHANALIGN_FIX_3752/daddr_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xilinx_pci_exp_ep</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ep/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[0].GTX_DRP_CHANALIGN_FIX_3752/daddr_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xilinx_pci_exp_ep</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ep/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[0].GTX_DRP_CHANALIGN_FIX_3752/daddr_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xilinx_pci_exp_ep</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ep/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[0].GTX_DRP_CHANALIGN_FIX_3752/daddr_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xilinx_pci_exp_ep</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ep/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[0].GTX_RX_VALID_FILTER/reg_state_eios_det_FSM_FFd3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xilinx_pci_exp_ep</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ep/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[0].GTX_RX_VALID_FILTER/reg_eios_detected&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">BMD_EP/EP_TX/trn_trem_n_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;BMD_EP/EP_TX/trn_trem_n_2&gt; &lt;BMD_EP/EP_TX/trn_trem_n_1&gt; &lt;BMD_EP/EP_TX/trn_trem_n_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">BMD_EP/EP_TX/trn_trem_n_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">app/BMD</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;BMD_EP/EP_TX/trn_trem_n_6&gt; &lt;BMD_EP/EP_TX/trn_trem_n_5&gt; &lt;BMD_EP/EP_TX/trn_trem_n_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

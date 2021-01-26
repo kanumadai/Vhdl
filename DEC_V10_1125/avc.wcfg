@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_822/BMD_TX_ENGINE_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="BMD_TX_ENGINE" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="140" />
+   <wvobject fp_name="/BMD_TX_ENGINE/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/rst_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/fifo_rd_data_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fifo_rd_data_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_data_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/fifo_empty_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fifo_empty_i</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/link_on_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">link_on_i</obj_property>
+      <obj_property name="ObjectShortName">link_on_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/init_rst_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">init_rst_i</obj_property>
+      <obj_property name="ObjectShortName">init_rst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_start_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_start_i</obj_property>
+      <obj_property name="ObjectShortName">mwr_start_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/acq_start_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">acq_start_i</obj_property>
+      <obj_property name="ObjectShortName">acq_start_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_start_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_start_i</obj_property>
+      <obj_property name="ObjectShortName">mrd_start_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_done_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_done_i</obj_property>
+      <obj_property name="ObjectShortName">mrd_done_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/acq_init_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">acq_init_i</obj_property>
+      <obj_property name="ObjectShortName">acq_init_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/acq_stop_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">acq_stop_i</obj_property>
+      <obj_property name="ObjectShortName">acq_stop_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/cfg_bm_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cfg_bm_en</obj_property>
+      <obj_property name="ObjectShortName">cfg_bm_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/bmd_64_tx_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bmd_64_tx_state[18:0]</obj_property>
+      <obj_property name="ObjectShortName">bmd_64_tx_state[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/fifo_rd_en_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fifo_rd_en_o</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_en_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/gc_op_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gc_op_o</obj_property>
+      <obj_property name="ObjectShortName">gc_op_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_start</obj_property>
+      <obj_property name="ObjectShortName">mwr_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_done</obj_property>
+      <obj_property name="ObjectShortName">mwr_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_done</obj_property>
+      <obj_property name="ObjectShortName">mrd_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/trn_td" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_td[63:0]</obj_property>
+      <obj_property name="ObjectShortName">trn_td[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/trn_trem_n" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_trem_n[7:0]</obj_property>
+      <obj_property name="ObjectShortName">trn_trem_n[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/trn_tsof_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_tsof_n</obj_property>
+      <obj_property name="ObjectShortName">trn_tsof_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/trn_teof_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_teof_n</obj_property>
+      <obj_property name="ObjectShortName">trn_teof_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/trn_tsrc_rdy_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_tsrc_rdy_n</obj_property>
+      <obj_property name="ObjectShortName">trn_tsrc_rdy_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/trn_tsrc_dsc_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_tsrc_dsc_n</obj_property>
+      <obj_property name="ObjectShortName">trn_tsrc_dsc_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/header_7e7e7e" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">header_7e7e7e[31:0]</obj_property>
+      <obj_property name="ObjectShortName">header_7e7e7e[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/list_length_DW" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">list_length_DW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">list_length_DW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/user_data_h_DW" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">user_data_h_DW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">user_data_h_DW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/user_data_l_DW" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">user_data_l_DW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">user_data_l_DW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/user_length_DW" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">user_length_DW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">user_length_DW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/TX_LENGTH" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TX_LENGTH[9:0]</obj_property>
+      <obj_property name="ObjectShortName">TX_LENGTH[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/tlp_flag" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tlp_flag</obj_property>
+      <obj_property name="ObjectShortName">tlp_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/debug_o_1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">debug_o_1</obj_property>
+      <obj_property name="ObjectShortName">debug_o_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/debug_o_2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">debug_o_2</obj_property>
+      <obj_property name="ObjectShortName">debug_o_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/trn_tdst_rdy_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_tdst_rdy_n</obj_property>
+      <obj_property name="ObjectShortName">trn_tdst_rdy_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/trn_tdst_dsc_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_tdst_dsc_n</obj_property>
+      <obj_property name="ObjectShortName">trn_tdst_dsc_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/trn_tbuf_av" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">trn_tbuf_av[5:0]</obj_property>
+      <obj_property name="ObjectShortName">trn_tbuf_av[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/req_compl_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">req_compl_i</obj_property>
+      <obj_property name="ObjectShortName">req_compl_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/req_tc_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">req_tc_i[2:0]</obj_property>
+      <obj_property name="ObjectShortName">req_tc_i[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/req_td_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">req_td_i</obj_property>
+      <obj_property name="ObjectShortName">req_td_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/req_ep_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">req_ep_i</obj_property>
+      <obj_property name="ObjectShortName">req_ep_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/req_attr_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">req_attr_i[1:0]</obj_property>
+      <obj_property name="ObjectShortName">req_attr_i[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/req_len_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">req_len_i[9:0]</obj_property>
+      <obj_property name="ObjectShortName">req_len_i[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/req_rid_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">req_rid_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">req_rid_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/req_tag_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">req_tag_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">req_tag_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/req_be_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">req_be_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">req_be_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/req_addr_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">req_addr_i[10:0]</obj_property>
+      <obj_property name="ObjectShortName">req_addr_i[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/rd_be_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_be_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_be_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/rd_data_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_data_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_int_dis_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_int_dis_i</obj_property>
+      <obj_property name="ObjectShortName">mwr_int_dis_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_tag_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_tag_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mwr_tag_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_lbe_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_lbe_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mwr_lbe_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_fbe_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_fbe_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mwr_fbe_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_addr_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_addr_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mwr_addr_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_data_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_data_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mwr_data_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_count_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_count_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mwr_count_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_tlp_tc_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_tlp_tc_i[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mwr_tlp_tc_i[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_phant_func_dis1_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_phant_func_dis1_i</obj_property>
+      <obj_property name="ObjectShortName">mwr_phant_func_dis1_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_relaxed_order_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_relaxed_order_i</obj_property>
+      <obj_property name="ObjectShortName">mwr_relaxed_order_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_nosnoop_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_nosnoop_i</obj_property>
+      <obj_property name="ObjectShortName">mwr_nosnoop_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_wrr_cnt_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_wrr_cnt_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mwr_wrr_cnt_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_int_dis_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_int_dis_i</obj_property>
+      <obj_property name="ObjectShortName">mrd_int_dis_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_len_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_len_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mrd_len_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_tag_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_tag_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mrd_tag_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_lbe_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_lbe_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mrd_lbe_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_fbe_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_fbe_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mrd_fbe_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_addr_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_addr_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mrd_addr_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_tlp_tc_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_tlp_tc_i[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mrd_tlp_tc_i[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_phant_func_dis1_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_phant_func_dis1_i</obj_property>
+      <obj_property name="ObjectShortName">mrd_phant_func_dis1_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_relaxed_order_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_relaxed_order_i</obj_property>
+      <obj_property name="ObjectShortName">mrd_relaxed_order_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_nosnoop_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_nosnoop_i</obj_property>
+      <obj_property name="ObjectShortName">mrd_nosnoop_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/cfg_msi_enable_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cfg_msi_enable_i</obj_property>
+      <obj_property name="ObjectShortName">cfg_msi_enable_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/cfg_interrupt_n_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cfg_interrupt_n_o</obj_property>
+      <obj_property name="ObjectShortName">cfg_interrupt_n_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/cfg_interrupt_assert_n_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cfg_interrupt_assert_n_o</obj_property>
+      <obj_property name="ObjectShortName">cfg_interrupt_assert_n_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/cfg_interrupt_rdy_n_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cfg_interrupt_rdy_n_i</obj_property>
+      <obj_property name="ObjectShortName">cfg_interrupt_rdy_n_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/cfg_interrupt_legacyclr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cfg_interrupt_legacyclr</obj_property>
+      <obj_property name="ObjectShortName">cfg_interrupt_legacyclr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/completer_id_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">completer_id_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">completer_id_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/cfg_ext_tag_en_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cfg_ext_tag_en_i</obj_property>
+      <obj_property name="ObjectShortName">cfg_ext_tag_en_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/cfg_bus_mstr_enable_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cfg_bus_mstr_enable_i</obj_property>
+      <obj_property name="ObjectShortName">cfg_bus_mstr_enable_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/cfg_phant_func_en_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cfg_phant_func_en_i</obj_property>
+      <obj_property name="ObjectShortName">cfg_phant_func_en_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/cfg_phant_func_supported_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cfg_phant_func_supported_i[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cfg_phant_func_supported_i[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/stop_mode_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">stop_mode_i[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stop_mode_i[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/acq_time_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">acq_time_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">acq_time_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/acq_count_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">acq_count_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">acq_count_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/data_count_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_count_i[12:0]</obj_property>
+      <obj_property name="ObjectShortName">data_count_i[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/intr_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">intr_done</obj_property>
+      <obj_property name="ObjectShortName">intr_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/debug_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">debug_o</obj_property>
+      <obj_property name="ObjectShortName">debug_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mwr_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mrd_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_data_i_sw" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_data_i_sw[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mwr_data_i_sw[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/compl_done_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">compl_done_o</obj_property>
+      <obj_property name="ObjectShortName">compl_done_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_len_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_len_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mwr_len_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_done_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_done_o</obj_property>
+      <obj_property name="ObjectShortName">mwr_done_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mwr_speed_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr_speed_o</obj_property>
+      <obj_property name="ObjectShortName">mwr_speed_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/listdata_cnt_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">listdata_cnt_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">listdata_cnt_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/acq_stop_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">acq_stop_out</obj_property>
+      <obj_property name="ObjectShortName">acq_stop_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/list_sync_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">list_sync_o</obj_property>
+      <obj_property name="ObjectShortName">list_sync_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/byte_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">byte_count[11:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_count[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/lower_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lower_addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">lower_addr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/req_compl_q" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">req_compl_q</obj_property>
+      <obj_property name="ObjectShortName">req_compl_q</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/last_list_data" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">last_list_data</obj_property>
+      <obj_property name="ObjectShortName">last_list_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/one_pack_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">one_pack_done</obj_property>
+      <obj_property name="ObjectShortName">one_pack_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_start</obj_property>
+      <obj_property name="ObjectShortName">mrd_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_int_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_int_en</obj_property>
+      <obj_property name="ObjectShortName">mrd_int_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_int_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_int_i</obj_property>
+      <obj_property name="ObjectShortName">mrd_int_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/t_mrd_addr_offset" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">t_mrd_addr_offset[11:0]</obj_property>
+      <obj_property name="ObjectShortName">t_mrd_addr_offset[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/t_mrd_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">t_mrd_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_mrd_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_tlp_len" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_tlp_len[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mrd_tlp_len[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_len" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_len[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mrd_len[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/mrd_tlp_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd_tlp_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mrd_tlp_cnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/list_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">list_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">list_cnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/t_mwr_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">t_mwr_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_mwr_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/t_mwr_addr_offset" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">t_mwr_addr_offset[11:0]</obj_property>
+      <obj_property name="ObjectShortName">t_mwr_addr_offset[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/time_over_cnt_clr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">time_over_cnt_clr</obj_property>
+      <obj_property name="ObjectShortName">time_over_cnt_clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/time_over_cnt_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">time_over_cnt_en</obj_property>
+      <obj_property name="ObjectShortName">time_over_cnt_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/time_over_cnt_end" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">time_over_cnt_end</obj_property>
+      <obj_property name="ObjectShortName">time_over_cnt_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/time_over" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">time_over</obj_property>
+      <obj_property name="ObjectShortName">time_over</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/time_over_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">time_over_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">time_over_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/listdata_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">listdata_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">listdata_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/acq_count_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">acq_count_out</obj_property>
+      <obj_property name="ObjectShortName">acq_count_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/acq_time" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">acq_time[31:0]</obj_property>
+      <obj_property name="ObjectShortName">acq_time[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/acq_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">acq_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">acq_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/acq_start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">acq_start</obj_property>
+      <obj_property name="ObjectShortName">acq_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/acq_stop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">acq_stop</obj_property>
+      <obj_property name="ObjectShortName">acq_stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/acq_stop_wait" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">acq_stop_wait</obj_property>
+      <obj_property name="ObjectShortName">acq_stop_wait</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/stop_mode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">stop_mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stop_mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/acq_timer_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">acq_timer_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">acq_timer_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/acq_timer_1s_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">acq_timer_1s_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">acq_timer_1s_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/acq_timer_1s_cnt_clr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">acq_timer_1s_cnt_clr</obj_property>
+      <obj_property name="ObjectShortName">acq_timer_1s_cnt_clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/acq_timer_1s_cnt_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">acq_timer_1s_cnt_en</obj_property>
+      <obj_property name="ObjectShortName">acq_timer_1s_cnt_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/acq_time_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">acq_time_out</obj_property>
+      <obj_property name="ObjectShortName">acq_time_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/acq_time_out_tmp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">acq_time_out_tmp</obj_property>
+      <obj_property name="ObjectShortName">acq_time_out_tmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/rate_sel_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rate_sel_cnt[23:0]</obj_property>
+      <obj_property name="ObjectShortName">rate_sel_cnt[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/rate_sel_cnt_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rate_sel_cnt_en</obj_property>
+      <obj_property name="ObjectShortName">rate_sel_cnt_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/pack_length_sel_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pack_length_sel_done</obj_property>
+      <obj_property name="ObjectShortName">pack_length_sel_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/pack_length_DW" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pack_length_DW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pack_length_DW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/link_on" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">link_on</obj_property>
+      <obj_property name="ObjectShortName">link_on</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/data_err_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_err_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_err_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/data_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BMD_TX_ENGINE/pet_cmd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pet_cmd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pet_cmd[7:0]</obj_property>
+   </wvobject>
+</wave_config>

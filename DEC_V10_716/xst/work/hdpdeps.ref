@@ -1,0 +1,166 @@
+V3 94
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/aurora_module.vhd 2013/08/09.10:24:10 O.40d
+EN work/aurora_module 1405927121 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/aurora_module.vhd \
+      PB ieee/std_logic_1164 1296775758
+AR work/aurora_module/Behavioral 1405927122 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/aurora_module.vhd \
+      EN work/aurora_module 1405927121 CP IBUFDS CP BUFG CP Aurora_V10_CLOCK_MODULE \
+      CP Aurora_V10 CP Aurora_V10_STANDARD_CC_MODULE CP Aurora_V10_RESET_LOGIC
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/DEC_TOP.vhd 2014/07/17.10:00:11 O.40d
+EN work/DEC_TOP 1405927123 FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/DEC_TOP.vhd \
+      PB ieee/std_logic_1164 1296775758
+AR work/DEC_TOP/Behavioral 1405927124 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/DEC_TOP.vhd EN work/DEC_TOP 1405927123 \
+      CP xilinx_pci_exp_ep CP fifo_32_64 CP fifo_32_512 CP aurora_module
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/example_design/aurora_v10.vhd 2013/09/17.16:51:12 O.40d
+EN work/aurora_v10 1405927115 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/example_design/aurora_v10.vhd \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_misc 1296775759
+AR work/aurora_v10/MAPPED 1405927116 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/example_design/aurora_v10.vhd \
+      EN work/aurora_v10 1405927115 CP aurora_v10_AURORA_LANE_4BYTE \
+      CP aurora_v10_GTX_WRAPPER CP aurora_v10_GLOBAL_LOGIC CP aurora_v10_TX_STREAM \
+      CP aurora_v10_RX_STREAM
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/example_design/aurora_v10_reset_logic.vhd 2013/09/17.16:51:10 O.40d
+EN work/aurora_v10_RESET_LOGIC 1405927119 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/example_design/aurora_v10_reset_logic.vhd \
+      PB ieee/std_logic_1164 1296775758
+AR work/aurora_v10_RESET_LOGIC/MAPPED 1405927120 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/example_design/aurora_v10_reset_logic.vhd \
+      EN work/aurora_v10_RESET_LOGIC 1405927119 CP IBUFG
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/example_design/cc_manager/aurora_v10_standard_cc_module.vhd 2013/09/17.16:51:12 O.40d
+EN work/aurora_v10_STANDARD_CC_MODULE 1405927117 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/example_design/cc_manager/aurora_v10_standard_cc_module.vhd \
+      PB ieee/std_logic_1164 1296775758
+AR work/aurora_v10_STANDARD_CC_MODULE/RTL 1405927118 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/example_design/cc_manager/aurora_v10_standard_cc_module.vhd \
+      EN work/aurora_v10_STANDARD_CC_MODULE 1405927117
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/example_design/clock_module/aurora_v10_clock_module.vhd 2013/09/17.16:51:10 O.40d
+EN work/aurora_v10_CLOCK_MODULE 1405927113 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/example_design/clock_module/aurora_v10_clock_module.vhd \
+      PB ieee/std_logic_1164 1296775758 PB ieee/NUMERIC_STD 1296775759
+AR work/aurora_v10_CLOCK_MODULE/MAPPED 1405927114 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/example_design/clock_module/aurora_v10_clock_module.vhd \
+      EN work/aurora_v10_CLOCK_MODULE 1405927113 CP PLL_ADV CP BUFG
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/example_design/gt/aurora_v10_transceiver_tile.vhd 2013/09/17.16:51:12 O.40d
+EN work/aurora_v10_GTX_TILE 1405927091 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/example_design/gt/aurora_v10_transceiver_tile.vhd \
+      PB ieee/std_logic_1164 1296775758 PB ieee/NUMERIC_STD 1296775759 LB UNISIM \
+      PH unisim/VCOMPONENTS 1296775759
+AR work/aurora_v10_GTX_TILE/RTL 1405927092 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/example_design/gt/aurora_v10_transceiver_tile.vhd \
+      EN work/aurora_v10_GTX_TILE 1405927091 CP GTX_DUAL
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/example_design/gt/aurora_v10_transceiver_wrapper.vhd 2013/09/17.16:51:12 O.40d
+EN work/aurora_v10_GTX_WRAPPER 1405927105 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/example_design/gt/aurora_v10_transceiver_wrapper.vhd \
+      PB ieee/std_logic_1164 1296775758 PB ieee/NUMERIC_STD 1296775759 LB UNISIM \
+      PH unisim/VCOMPONENTS 1296775759
+AR work/aurora_v10_GTX_WRAPPER/BEHAVIORAL 1405927106 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/example_design/gt/aurora_v10_transceiver_wrapper.vhd \
+      EN work/aurora_v10_GTX_WRAPPER 1405927105 CP aurora_v10_GTX_TILE
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_aurora_lane_4byte.vhd 2013/09/17.16:51:10 O.40d
+EN work/aurora_v10_AURORA_LANE_4BYTE 1405927103 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_aurora_lane_4byte.vhd \
+      PB ieee/std_logic_1164 1296775758 PB work/AURORA_PKG 1405927084
+AR work/aurora_v10_AURORA_LANE_4BYTE/RTL 1405927104 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_aurora_lane_4byte.vhd \
+      EN work/aurora_v10_AURORA_LANE_4BYTE 1405927103 \
+      CP aurora_v10_LANE_INIT_SM_4BYTE CP aurora_v10_CHBOND_COUNT_DEC_4BYTE \
+      CP aurora_v10_SYM_GEN_4BYTE CP aurora_v10_SYM_DEC_4BYTE \
+      CP aurora_v10_ERR_DETECT_4BYTE
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_aurora_pkg.vhd 2013/09/17.16:51:10 O.40d
+PH work/AURORA_PKG 1405927083 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_aurora_pkg.vhd \
+      PB ieee/std_logic_1164 1296775758 PB std/TEXTIO 1296775758
+PB work/AURORA_PKG 1405927084 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_aurora_pkg.vhd \
+      PH work/AURORA_PKG 1405927083
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_channel_err_detect.vhd 2013/09/17.16:51:10 O.40d
+EN work/aurora_v10_CHANNEL_ERR_DETECT 1405927089 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_channel_err_detect.vhd \
+      PB ieee/std_logic_1164 1296775758
+AR work/aurora_v10_CHANNEL_ERR_DETECT/RTL 1405927090 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_channel_err_detect.vhd \
+      EN work/aurora_v10_CHANNEL_ERR_DETECT 1405927089
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_channel_init_sm.vhd 2013/09/17.16:51:10 O.40d
+EN work/aurora_v10_CHANNEL_INIT_SM 1405927085 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_channel_init_sm.vhd \
+      PB ieee/std_logic_1164 1296775758 PB ieee/NUMERIC_STD 1296775759 \
+      PB ieee/std_logic_arith 1296775759 PB ieee/STD_LOGIC_UNSIGNED 1296775760 \
+      PB work/AURORA_PKG 1405927084
+AR work/aurora_v10_CHANNEL_INIT_SM/RTL 1405927086 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_channel_init_sm.vhd \
+      EN work/aurora_v10_CHANNEL_INIT_SM 1405927085 CP FD
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_chbond_count_dec_4byte.vhd 2013/09/17.16:51:10 O.40d
+EN work/aurora_v10_CHBOND_COUNT_DEC_4BYTE 1405927095 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_chbond_count_dec_4byte.vhd \
+      PB ieee/std_logic_1164 1296775758 PB work/AURORA_PKG 1405927084
+AR work/aurora_v10_CHBOND_COUNT_DEC_4BYTE/RTL 1405927096 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_chbond_count_dec_4byte.vhd \
+      EN work/aurora_v10_CHBOND_COUNT_DEC_4BYTE 1405927095
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_err_detect_4byte.vhd 2013/09/17.16:51:10 O.40d
+EN work/aurora_v10_ERR_DETECT_4BYTE 1405927101 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_err_detect_4byte.vhd \
+      PB ieee/std_logic_1164 1296775758 PB work/AURORA_PKG 1405927084 \
+      PB ieee/std_logic_arith 1296775759 PB ieee/STD_LOGIC_UNSIGNED 1296775760 \
+      PB ieee/NUMERIC_STD 1296775759
+AR work/aurora_v10_ERR_DETECT_4BYTE/RTL 1405927102 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_err_detect_4byte.vhd \
+      EN work/aurora_v10_ERR_DETECT_4BYTE 1405927101
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_global_logic.vhd 2013/09/17.16:51:10 O.40d
+EN work/aurora_v10_GLOBAL_LOGIC 1405927107 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_global_logic.vhd \
+      PB ieee/std_logic_1164 1296775758
+AR work/aurora_v10_GLOBAL_LOGIC/MAPPED 1405927108 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_global_logic.vhd \
+      EN work/aurora_v10_GLOBAL_LOGIC 1405927107 CP aurora_v10_CHANNEL_INIT_SM \
+      CP aurora_v10_IDLE_AND_VER_GEN CP aurora_v10_CHANNEL_ERR_DETECT
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_idle_and_ver_gen.vhd 2013/09/17.16:51:12 O.40d
+EN work/aurora_v10_IDLE_AND_VER_GEN 1405927087 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_idle_and_ver_gen.vhd \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 PB work/AURORA_PKG 1405927084
+AR work/aurora_v10_IDLE_AND_VER_GEN/RTL 1405927088 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_idle_and_ver_gen.vhd \
+      EN work/aurora_v10_IDLE_AND_VER_GEN 1405927087 CP SRL16 CP FD
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_lane_init_sm_4byte.vhd 2013/09/17.16:51:12 O.40d
+EN work/aurora_v10_LANE_INIT_SM_4BYTE 1405927093 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_lane_init_sm_4byte.vhd \
+      PB ieee/std_logic_1164 1296775758 PB ieee/NUMERIC_STD 1296775759 \
+      PB work/AURORA_PKG 1405927084
+AR work/aurora_v10_LANE_INIT_SM_4BYTE/RTL 1405927094 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_lane_init_sm_4byte.vhd \
+      EN work/aurora_v10_LANE_INIT_SM_4BYTE 1405927093 CP FDR
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_rx_stream.vhd 2013/09/17.16:51:12 O.40d
+EN work/aurora_v10_RX_STREAM 1405927111 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_rx_stream.vhd \
+      PB ieee/std_logic_1164 1296775758 PB ieee/NUMERIC_STD 1296775759 \
+      PB ieee/std_logic_arith 1296775759 PB ieee/STD_LOGIC_UNSIGNED 1296775760 \
+      PB work/AURORA_PKG 1405927084
+AR work/aurora_v10_RX_STREAM/RTL 1405927112 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_rx_stream.vhd \
+      EN work/aurora_v10_RX_STREAM 1405927111
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_sym_dec_4byte.vhd 2013/09/17.16:51:12 O.40d
+EN work/aurora_v10_SYM_DEC_4BYTE 1405927099 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_sym_dec_4byte.vhd \
+      PB ieee/std_logic_1164 1296775758 PB work/AURORA_PKG 1405927084
+AR work/aurora_v10_SYM_DEC_4BYTE/RTL 1405927100 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_sym_dec_4byte.vhd \
+      EN work/aurora_v10_SYM_DEC_4BYTE 1405927099
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_sym_gen_4byte.vhd 2013/09/17.16:51:12 O.40d
+EN work/aurora_v10_SYM_GEN_4BYTE 1405927097 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_sym_gen_4byte.vhd \
+      PB ieee/std_logic_1164 1296775758
+AR work/aurora_v10_SYM_GEN_4BYTE/RTL 1405927098 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_sym_gen_4byte.vhd \
+      EN work/aurora_v10_SYM_GEN_4BYTE 1405927097
+FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_tx_stream.vhd 2013/09/17.16:51:12 O.40d
+EN work/aurora_v10_TX_STREAM 1405927109 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_tx_stream.vhd \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 PB ieee/NUMERIC_STD 1296775759 \
+      PB work/AURORA_PKG 1405927084
+AR work/aurora_v10_TX_STREAM/RTL 1405927110 \
+      FL E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/ipcore_dir/aurora_v10/src/aurora_v10_tx_stream.vhd \
+      EN work/aurora_v10_TX_STREAM 1405927109

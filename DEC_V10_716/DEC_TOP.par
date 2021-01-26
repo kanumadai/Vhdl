@@ -1,0 +1,179 @@
+Release 13.1 par O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+0PTBCYYWVHXG1WW::  Mon Jul 21 15:20:20 2014
+
+par -w -intstyle ise -ol high -mt off DEC_TOP_map.ncd DEC_TOP.ncd DEC_TOP.pcf 
+
+
+Constraints file: DEC_TOP.pcf.
+Loading device for application Rf_Device from file '5vfx70t.nph' in environment d:\Xilinx\13.1\ISE_DS\ISE\.
+   "DEC_TOP" is an NCD, version 3.2, device xc5vfx70t, package ff1136, speed -1
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.72 2011-02-03".
+
+
+
+Device Utilization Summary:
+
+   Number of BUFDSs                          2 out of 8      25%
+   Number of BUFGs                           8 out of 32     25%
+   Number of GTX_DUALs                       2 out of 8      25%
+   Number of External IOBs                  14 out of 640     2%
+      Number of LOCed IOBs                  14 out of 14    100%
+
+   Number of External IPADs                  8 out of 690     1%
+      Number of LOCed IPADs                  8 out of 8     100%
+
+   Number of External OPADs                  4 out of 32     12%
+      Number of LOCed OPADs                  4 out of 4     100%
+
+   Number of PCIEs                           1 out of 3      33%
+   Number of PLL_ADVs                        2 out of 6      33%
+   Number of RAMB18X2s                       1 out of 148     1%
+   Number of RAMB18X2SDPs                    1 out of 148     1%
+   Number of RAMB36SDP_EXPs                  2 out of 148     1%
+   Number of RAMB36_EXPs                    18 out of 148    12%
+   Number of Slices                       2830 out of 11200  25%
+   Number of Slice Registers              4807 out of 44800  10%
+      Number used as Flip Flops           4803
+      Number used as Latches                 4
+      Number used as LatchThrus              0
+
+   Number of Slice LUTS                   4483 out of 44800  10%
+   Number of Slice LUT-Flip Flop pairs    6608 out of 44800  14%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 7 secs 
+Finished initial Timing Analysis.  REAL time: 7 secs 
+
+Starting Router
+
+
+Phase  1  : 32432 unrouted;      REAL time: 8 secs 
+
+Phase  2  : 27755 unrouted;      REAL time: 10 secs 
+
+Phase  3  : 9667 unrouted;      REAL time: 25 secs 
+
+Phase  4  : 9667 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 28 secs 
+
+Updating file: DEC_TOP.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 33 secs 
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 33 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 33 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 33 secs 
+
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 33 secs 
+
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 33 secs 
+Total REAL time to Router completion: 33 secs 
+Total CPU time to Router completion: 32 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|pcie/ep/pcie_ep0/use |              |      |      |            |             |
+|               r_clk | BUFGCTRL_X0Y3| No   | 1630 |  0.577     |  2.109      |
++---------------------+--------------+------+------+------------+-------------+
+|       aurora_clkout |BUFGCTRL_X0Y30| No   |  340 |  0.482     |  2.109      |
++---------------------+--------------+------+------+------------+-------------+
+|pcie/ep/pcie_ep0/pci |              |      |      |            |             |
+|    e_blk/txsync_clk | BUFGCTRL_X0Y1| No   |   62 |  0.192     |  1.887      |
++---------------------+--------------+------+------+------------+-------------+
+|pcie/ep/pcie_ep0/cor |              |      |      |            |             |
+|               e_clk | BUFGCTRL_X0Y4| No   |   72 |  0.453     |  2.085      |
++---------------------+--------------+------+------+------------+-------------+
+|pcie/ep/pcie_ep0/REF |              |      |      |            |             |
+|        CLK_OUT_bufg | BUFGCTRL_X0Y0| No   |    7 |  0.031     |  1.724      |
++---------------------+--------------+------+------+------------+-------------+
+|pcie/ep/pcie_ep0/pci |              |      |      |            |             |
+|     e_blk/gt_usrclk | BUFGCTRL_X0Y2| No   |    4 |  0.006     |  1.886      |
++---------------------+--------------+------+------+------------+-------------+
+|   aurora/sync_clk_i |BUFGCTRL_X0Y29| No   |    2 |  0.006     |  1.884      |
++---------------------+--------------+------+------+------------+-------------+
+|pcie/app/BMD/BMD_EP/ |              |      |      |            |             |
+|EP_TX/BMD_INTR_CTRL/ |              |      |      |            |             |
+|    intr_done_or0000 |         Local|      |    1 |  0.000     |  0.457      |
++---------------------+--------------+------+------+------------+-------------+
+|pcie/app/BMD/BMD_EP/ |              |      |      |            |             |
+|EP_TX/BMD_INTR_CTRL/ |              |      |      |            |             |
+|       intr_n_or0000 |         Local|      |    2 |  0.302     |  0.923      |
++---------------------+--------------+------+------+------------+-------------+
+|aurora/reset_logic_i |              |      |      |            |             |
+|         /init_clk_i |         Local|      |    2 |  0.005     |  2.438      |
++---------------------+--------------+------+------+------------+-------------+
+|pcie/ep/pcie_ep0/pci |              |      |      |            |             |
+|e_blk/SIO/.pcie_gt_w |              |      |      |            |             |
+|rapper_i/icdrreset<0 |              |      |      |            |             |
+|                   > |         Local|      |    1 |  0.000     |  0.664      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | SETUP       |     8.689ns|     1.311ns|       0|           0
+  pin" 100 MHz HIGH 50%                     | HOLD        |     0.432ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 37 secs 
+Total CPU time to PAR completion: 37 secs 
+
+Peak Memory Usage:  352 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file DEC_TOP.ncd
+
+
+
+PAR done!

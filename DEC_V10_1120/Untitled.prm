@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator O.40d
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o E:\DAS\DEC_V10//Untitled -s 8192 -u 0000 E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_731/dec_top.bit -spi 
+
+PROM E:\DAS\DEC_V10\Untitled.prm map: Thu Jul 31 15:21:47 2014
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          8192K
+PROM start    0000:0000
+PROM end      007f:ffff
+PROM checksum 4e4b8548
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0032:0c2b     Jul 31 14:32:50 2014 E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_731/dec_top.bit

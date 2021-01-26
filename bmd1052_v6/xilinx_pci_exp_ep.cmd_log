@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/bmd1052_v6/xilinx_pci_exp_ep.xst" -ofn "E:/DAS/DEC_V10/bmd1052_v6/xilinx_pci_exp_ep.syr" 
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/bmd1052_v6/xilinx_pci_exp_ep.xst" -ofn "E:/DAS/DEC_V10/bmd1052_v6/xilinx_pci_exp_ep.syr" 
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/bmd1052_v6/xilinx_pci_exp_ep.xst" -ofn "E:/DAS/DEC_V10/bmd1052_v6/xilinx_pci_exp_ep.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DEC_V11_V6.ucf -p xc6vlx75t-ff484-1 xilinx_pci_exp_ep.ngc xilinx_pci_exp_ep.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DEC_V11_V6.ucf -p xc6vlx75t-ff484-1 xilinx_pci_exp_ep.ngc xilinx_pci_exp_ep.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DEC_V11_V6.ucf -p xc6vlx75t-ff484-1 xilinx_pci_exp_ep.ngc xilinx_pci_exp_ep.ngd  
+map -intstyle ise -p xc6vlx75t-ff484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o xilinx_pci_exp_ep_map.ncd xilinx_pci_exp_ep.ngd xilinx_pci_exp_ep.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pci_exp_ep_map.ncd xilinx_pci_exp_ep.ncd xilinx_pci_exp_ep.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pci_exp_ep.twx xilinx_pci_exp_ep.ncd -o xilinx_pci_exp_ep.twr xilinx_pci_exp_ep.pcf -ucf DEC_V11_V6.ucf 
+bitgen -intstyle ise -f xilinx_pci_exp_ep.ut xilinx_pci_exp_ep.ncd 
+xst -intstyle ise -ifn "E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/xilinx_pci_exp_ep.xst" -ofn "E:/DAS/DEC_V10/DEC_V10.ise/bmd1052_v6/xilinx_pci_exp_ep.syr" 

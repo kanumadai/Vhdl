@@ -1,0 +1,61 @@
+#net "clk" 		loc = "ah17";  
+#net "reset"		loc = "e9";
+#net "sw_s"		loc = "v8";
+#net "sw_e"		loc = "ak7";
+#net "sw_n"		loc = "u8";
+#net "sw_w"		loc = "aj7";
+#net "sw_c"		loc = "aj6";
+#net "led_s"		loc = "ag12";
+#net "led_e"		loc = "ag23";
+#net "led_n"		loc = "af13";
+#net "led_w"		loc = "af23";
+#net "led_c"		loc = "e8";
+
+
+#  8LEDS
+
+ Net LEDS<0> LOC=F34;	#J6--Pin2  on board
+ 
+# Net LEDS<0> LOC=h18;	#MODE0
+ Net LEDS<1> LOC=l18;	#MODE1
+ Net LEDS<2> LOC=g15;	#MODE2
+ Net LEDS<3> LOC=ad26;	#STATE0
+ Net LEDS<4> LOC=g16;	#STATE1
+ Net LEDS<5> LOC=ad25;	#STATE2
+ Net LEDS<6> LOC=ad24;	#STATE3
+ Net LEDS<7> LOC=ae24;	#COMM
+
+ Net refclkout LOC=h33;	#COMM
+
+# Net SFP_LOS LOC=V6;
+ Net SFP_iic_scl LOC=U26;
+ Net SFP_iic_sda LOC=U28;
+ Net SFP_tx_en LOC=K24;
+
+Net SFP_TX_P 	LOC = F2;
+Net SFP_TX_N 	LOC = G2;
+Net SFP_RX_P 	LOC = G1;
+Net SFP_RX_N 	LOC = H1;
+Net MGTCLK_N 	LOC = H3; 
+Net MGTCLK_P 	LOC = H4;
+
+
+
+##
+net pci_exp_rxn<0>		loc = AF1;
+net pci_exp_rxp<0>		loc = AE1;
+net pci_exp_txn<0>		loc = AE2;
+net pci_exp_txp<0>		loc = AD2;
+
+NET  sys_clk_p       LOC = AF4  ;
+NET  sys_clk_n      LOC = AF3  ;
+
+#############################
+#clk
+Net clkin TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+Net clkin LOC= AH15;
+#reset
+#Net reset TIG;
+Net reset_n LOC= E9;
+##############################

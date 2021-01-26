@@ -1,0 +1,529 @@
+--------------------------------------------------------------------------------
+Release 13.1 Trace  (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+d:\Xilinx\13.1\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 1 -n
+3 -fastpaths -xml DEC_TOP.twx DEC_TOP.ncd -o DEC_TOP.twr DEC_TOP.pcf -ucf
+DEC_V11_V6.ucf
+
+Design file:              DEC_TOP.ncd
+Physical constraint file: DEC_TOP.pcf
+Device,package,speed:     xc6vlx75t,ff484,C,-1 (PRODUCTION 1.13 2011-02-03)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 62.5 MHz HIGH 
+50%;
+
+ 190 paths analyzed, 47 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   2.174ns.
+--------------------------------------------------------------------------------
+
+Paths for end point aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4 (SLICE_X78Y38.CE), 11 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     13.826ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_2 (FF)
+  Destination:          aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4 (FF)
+  Requirement:          16.000ns
+  Data Path Delay:      2.117ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.022ns (0.094 - 0.116)
+  Source Clock:         clkin_BUFGP rising at 0.000ns
+  Destination Clock:    clkin_BUFGP rising at 16.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_2 to aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X78Y37.CQ      Tcko                  0.381   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<3>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_2
+    SLICE_X79Y38.D1      net (fanout=3)        0.587   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<2>
+    SLICE_X79Y38.D       Tilo                  0.068   N34
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv_SW0
+    SLICE_X79Y38.C2      net (fanout=1)        0.463   N34
+    SLICE_X79Y38.C       Tilo                  0.068   N34
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv
+    SLICE_X78Y38.CE      net (fanout=3)        0.266   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv
+    SLICE_X78Y38.CLK     Tceck                 0.284   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<7>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4
+    -------------------------------------------------  ---------------------------
+    Total                                      2.117ns (0.801ns logic, 1.316ns route)
+                                                       (37.8% logic, 62.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     13.948ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5 (FF)
+  Destination:          aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4 (FF)
+  Requirement:          16.000ns
+  Data Path Delay:      2.017ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clkin_BUFGP rising at 0.000ns
+  Destination Clock:    clkin_BUFGP rising at 16.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5 to aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X78Y38.BQ      Tcko                  0.381   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<7>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5
+    SLICE_X79Y38.D2      net (fanout=3)        0.487   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<5>
+    SLICE_X79Y38.D       Tilo                  0.068   N34
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv_SW0
+    SLICE_X79Y38.C2      net (fanout=1)        0.463   N34
+    SLICE_X79Y38.C       Tilo                  0.068   N34
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv
+    SLICE_X78Y38.CE      net (fanout=3)        0.266   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv
+    SLICE_X78Y38.CLK     Tceck                 0.284   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<7>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4
+    -------------------------------------------------  ---------------------------
+    Total                                      2.017ns (0.801ns logic, 1.216ns route)
+                                                       (39.7% logic, 60.3% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     13.978ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4 (FF)
+  Destination:          aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4 (FF)
+  Requirement:          16.000ns
+  Data Path Delay:      1.987ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clkin_BUFGP rising at 0.000ns
+  Destination Clock:    clkin_BUFGP rising at 16.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4 to aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X78Y38.AQ      Tcko                  0.381   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<7>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4
+    SLICE_X79Y38.D3      net (fanout=3)        0.457   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<4>
+    SLICE_X79Y38.D       Tilo                  0.068   N34
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv_SW0
+    SLICE_X79Y38.C2      net (fanout=1)        0.463   N34
+    SLICE_X79Y38.C       Tilo                  0.068   N34
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv
+    SLICE_X78Y38.CE      net (fanout=3)        0.266   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv
+    SLICE_X78Y38.CLK     Tceck                 0.284   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<7>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4
+    -------------------------------------------------  ---------------------------
+    Total                                      1.987ns (0.801ns logic, 1.186ns route)
+                                                       (40.3% logic, 59.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5 (SLICE_X78Y38.CE), 11 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     13.826ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_2 (FF)
+  Destination:          aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5 (FF)
+  Requirement:          16.000ns
+  Data Path Delay:      2.117ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.022ns (0.094 - 0.116)
+  Source Clock:         clkin_BUFGP rising at 0.000ns
+  Destination Clock:    clkin_BUFGP rising at 16.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_2 to aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X78Y37.CQ      Tcko                  0.381   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<3>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_2
+    SLICE_X79Y38.D1      net (fanout=3)        0.587   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<2>
+    SLICE_X79Y38.D       Tilo                  0.068   N34
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv_SW0
+    SLICE_X79Y38.C2      net (fanout=1)        0.463   N34
+    SLICE_X79Y38.C       Tilo                  0.068   N34
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv
+    SLICE_X78Y38.CE      net (fanout=3)        0.266   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv
+    SLICE_X78Y38.CLK     Tceck                 0.284   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<7>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5
+    -------------------------------------------------  ---------------------------
+    Total                                      2.117ns (0.801ns logic, 1.316ns route)
+                                                       (37.8% logic, 62.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     13.948ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5 (FF)
+  Destination:          aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5 (FF)
+  Requirement:          16.000ns
+  Data Path Delay:      2.017ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clkin_BUFGP rising at 0.000ns
+  Destination Clock:    clkin_BUFGP rising at 16.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5 to aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X78Y38.BQ      Tcko                  0.381   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<7>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5
+    SLICE_X79Y38.D2      net (fanout=3)        0.487   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<5>
+    SLICE_X79Y38.D       Tilo                  0.068   N34
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv_SW0
+    SLICE_X79Y38.C2      net (fanout=1)        0.463   N34
+    SLICE_X79Y38.C       Tilo                  0.068   N34
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv
+    SLICE_X78Y38.CE      net (fanout=3)        0.266   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv
+    SLICE_X78Y38.CLK     Tceck                 0.284   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<7>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5
+    -------------------------------------------------  ---------------------------
+    Total                                      2.017ns (0.801ns logic, 1.216ns route)
+                                                       (39.7% logic, 60.3% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     13.978ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4 (FF)
+  Destination:          aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5 (FF)
+  Requirement:          16.000ns
+  Data Path Delay:      1.987ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clkin_BUFGP rising at 0.000ns
+  Destination Clock:    clkin_BUFGP rising at 16.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4 to aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X78Y38.AQ      Tcko                  0.381   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<7>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4
+    SLICE_X79Y38.D3      net (fanout=3)        0.457   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<4>
+    SLICE_X79Y38.D       Tilo                  0.068   N34
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv_SW0
+    SLICE_X79Y38.C2      net (fanout=1)        0.463   N34
+    SLICE_X79Y38.C       Tilo                  0.068   N34
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv
+    SLICE_X78Y38.CE      net (fanout=3)        0.266   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv
+    SLICE_X78Y38.CLK     Tceck                 0.284   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<7>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5
+    -------------------------------------------------  ---------------------------
+    Total                                      1.987ns (0.801ns logic, 1.186ns route)
+                                                       (40.3% logic, 59.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_6 (SLICE_X78Y38.CE), 11 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     13.826ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_2 (FF)
+  Destination:          aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_6 (FF)
+  Requirement:          16.000ns
+  Data Path Delay:      2.117ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.022ns (0.094 - 0.116)
+  Source Clock:         clkin_BUFGP rising at 0.000ns
+  Destination Clock:    clkin_BUFGP rising at 16.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_2 to aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X78Y37.CQ      Tcko                  0.381   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<3>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_2
+    SLICE_X79Y38.D1      net (fanout=3)        0.587   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<2>
+    SLICE_X79Y38.D       Tilo                  0.068   N34
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv_SW0
+    SLICE_X79Y38.C2      net (fanout=1)        0.463   N34
+    SLICE_X79Y38.C       Tilo                  0.068   N34
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv
+    SLICE_X78Y38.CE      net (fanout=3)        0.266   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv
+    SLICE_X78Y38.CLK     Tceck                 0.284   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<7>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_6
+    -------------------------------------------------  ---------------------------
+    Total                                      2.117ns (0.801ns logic, 1.316ns route)
+                                                       (37.8% logic, 62.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     13.948ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5 (FF)
+  Destination:          aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_6 (FF)
+  Requirement:          16.000ns
+  Data Path Delay:      2.017ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clkin_BUFGP rising at 0.000ns
+  Destination Clock:    clkin_BUFGP rising at 16.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5 to aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X78Y38.BQ      Tcko                  0.381   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<7>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_5
+    SLICE_X79Y38.D2      net (fanout=3)        0.487   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<5>
+    SLICE_X79Y38.D       Tilo                  0.068   N34
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv_SW0
+    SLICE_X79Y38.C2      net (fanout=1)        0.463   N34
+    SLICE_X79Y38.C       Tilo                  0.068   N34
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv
+    SLICE_X78Y38.CE      net (fanout=3)        0.266   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv
+    SLICE_X78Y38.CLK     Tceck                 0.284   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<7>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_6
+    -------------------------------------------------  ---------------------------
+    Total                                      2.017ns (0.801ns logic, 1.216ns route)
+                                                       (39.7% logic, 60.3% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     13.978ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4 (FF)
+  Destination:          aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_6 (FF)
+  Requirement:          16.000ns
+  Data Path Delay:      1.987ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clkin_BUFGP rising at 0.000ns
+  Destination Clock:    clkin_BUFGP rising at 16.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4 to aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X78Y38.AQ      Tcko                  0.381   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<7>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4
+    SLICE_X79Y38.D3      net (fanout=3)        0.457   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<4>
+    SLICE_X79Y38.D       Tilo                  0.068   N34
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv_SW0
+    SLICE_X79Y38.C2      net (fanout=1)        0.463   N34
+    SLICE_X79Y38.C       Tilo                  0.068   N34
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv
+    SLICE_X78Y38.CE      net (fanout=3)        0.266   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset[10]_PWR_65_o_equal_5_o_inv
+    SLICE_X78Y38.CLK     Tceck                 0.284   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<7>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_6
+    -------------------------------------------------  ---------------------------
+    Total                                      1.987ns (0.801ns logic, 1.186ns route)
+                                                       (40.3% logic, 59.7% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 62.5 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_0 (SLICE_X78Y37.A5), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.148ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_0 (FF)
+  Destination:          aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_0 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.148ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clkin_BUFGP rising at 16.000ns
+  Destination Clock:    clkin_BUFGP rising at 16.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_0 to aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X78Y37.AQ      Tcko                  0.115   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<3>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_0
+    SLICE_X78Y37.A5      net (fanout=3)        0.072   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<0>
+    SLICE_X78Y37.CLK     Tah         (-Th)     0.039   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<3>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/Mcount_count_for_reset_lut<0>_INV_0
+                                                       aurora/aurora_module_i/gtx_wrapper_i/Mcount_count_for_reset_cy<3>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_0
+    -------------------------------------------------  ---------------------------
+    Total                                      0.148ns (0.076ns logic, 0.072ns route)
+                                                       (51.4% logic, 48.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_8 (SLICE_X78Y39.A5), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.152ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_8 (FF)
+  Destination:          aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_8 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.152ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clkin_BUFGP rising at 16.000ns
+  Destination Clock:    clkin_BUFGP rising at 16.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_8 to aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_8
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X78Y39.AQ      Tcko                  0.115   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<10>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_8
+    SLICE_X78Y39.A5      net (fanout=3)        0.076   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<8>
+    SLICE_X78Y39.CLK     Tah         (-Th)     0.039   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<10>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<8>_rt
+                                                       aurora/aurora_module_i/gtx_wrapper_i/Mcount_count_for_reset_xor<10>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_8
+    -------------------------------------------------  ---------------------------
+    Total                                      0.152ns (0.076ns logic, 0.076ns route)
+                                                       (50.0% logic, 50.0% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4 (SLICE_X78Y38.A5), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.153ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4 (FF)
+  Destination:          aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.153ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clkin_BUFGP rising at 16.000ns
+  Destination Clock:    clkin_BUFGP rising at 16.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4 to aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X78Y38.AQ      Tcko                  0.115   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<7>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4
+    SLICE_X78Y38.A5      net (fanout=3)        0.077   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<4>
+    SLICE_X78Y38.CLK     Tah         (-Th)     0.039   aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<7>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<4>_rt
+                                                       aurora/aurora_module_i/gtx_wrapper_i/Mcount_count_for_reset_cy<7>
+                                                       aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_4
+    -------------------------------------------------  ---------------------------
+    Total                                      0.153ns (0.076ns logic, 0.077ns route)
+                                                       (49.7% logic, 50.3% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 62.5 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 14.571ns (period - min period limit)
+  Period: 16.000ns
+  Min period limit: 1.429ns (699.790MHz) (Tbcper_I)
+  Physical resource: clkin_BUFGP/BUFG/I0
+  Logical resource: clkin_BUFGP/BUFG/I0
+  Location pin: BUFGCTRL_X0Y5.I0
+  Clock network: clkin_BUFGP/IBUFG
+--------------------------------------------------------------------------------
+Slack: 15.272ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 16.000ns
+  Low pulse: 8.000ns
+  Low pulse limit: 0.364ns (Tcl)
+  Physical resource: aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<3>/CLK
+  Logical resource: aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_0/CK
+  Location pin: SLICE_X78Y37.CLK
+  Clock network: clkin_BUFGP
+--------------------------------------------------------------------------------
+Slack: 15.272ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 16.000ns
+  High pulse: 8.000ns
+  High pulse limit: 0.364ns (Tch)
+  Physical resource: aurora/aurora_module_i/gtx_wrapper_i/count_for_reset<3>/CLK
+  Logical resource: aurora/aurora_module_i/gtx_wrapper_i/count_for_reset_0/CK
+  Location pin: SLICE_X78Y37.CLK
+  Clock network: clkin_BUFGP
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clkin
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clkin          |    2.174|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 190 paths, 0 nets, and 36 connections
+
+Design statistics:
+   Minimum period:   2.174ns{1}   (Maximum frequency: 459.982MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Fri Nov 21 16:07:49 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 295 MB
+
+
+

@@ -1,0 +1,151 @@
+
+##The PCB is the DEC_V1.0 PCIe Board;
+
+
+#J2  on board
+# Net LEDS<0> LOC=A19;	#TS0
+# Net LEDS<1> LOC=A18;	#TS1
+# Net LEDS<2> LOC=B16;	#TS2
+# Net LEDS<3> LOC=B15;	#TS3
+# Net LEDS<4> LOC=B14;	#TS4
+# Net LEDS<5> LOC=B13;	#TS5
+# Net LEDS<6> LOC=B19;	#TS6
+# Net LEDS<7> LOC=B18;	#TS7
+#
+# Net refclkout LOC=A13;	#TS11
+ 
+###################### 
+#SFP PART
+# Net SFP_LOS LOC=A7;
+# Net SFP_iic_scl LOC=A9;
+# Net SFP_iic_sda LOC=A8;
+# Net SFP_tx_en LOC=A11;
+#
+#Net SFP_TX_P 	LOC = K1;
+#Net SFP_TX_N 	LOC = K2;
+#Net SFP_RX_P 	LOC = G3;
+#Net SFP_RX_N 	LOC = G4;
+#Net MGTCLK_N 	LOC = J3; 
+#Net MGTCLK_P 	LOC = J4;
+
+######################
+##PCIE PART
+net pci_exp_rxn<0>		loc = AB2;
+net pci_exp_rxp<0>		loc = AB1;
+net pci_exp_txn<0>		loc = V2;
+net pci_exp_txp<0>		loc = V1;
+
+NET  sys_clk_p       	LOC = R4;
+NET  sys_clk_n      		LOC = R3;
+ 
+#NET  pcie_reset       	LOC = AB14  ;
+#NET  pcie_wake      		LOC = AA14  ;
+#NET  pcie_prsnt_b      	LOC = AB15  ;
+
+#######################
+#RJ45 INTERFACE
+#NET  CLK_P       			LOC = C22  ;
+#NET  CLK_N	      		LOC = D22  ;
+#NET  SYNC_P       		LOC = E21  ;
+#NET  SYNC_N	      		LOC = E22  ;
+#
+#NET  TXD_P       			LOC = F21  ;
+#NET  TXD_N	      		LOC = F22  ;
+#NET  RXD_P       			LOC = J22  ;
+#NET  RXD_N	      		LOC = H22  ;
+#
+#NET  TR_LED       			LOC = K22  ;
+#NET  CLK_LED	      		LOC = B22  ;
+#######################
+#clk
+#Net clkin TNM_NET = sys_clk_pin;
+#TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 62500 kHz;
+#Net clkin LOC= AA16;
+#reset
+#Net reset TIG;
+Net sys_reset_n LOC= A12;
+#######################
+
+###############################################################################
+# Define Device, Package And Speed Grade
+###############################################################################
+
+CONFIG PART = xc6vlx75t-ff484-1;
+
+###############################################################################
+# Pinout and Related I/O Constraints
+###############################################################################
+
+#
+# SYS reset (input) signal.  The sys_reset_n signal should be
+# obtained from the PCI Express interface if possible.  For
+# slot based form factors, a system reset signal is usually
+# present on the connector.  For cable based form factors, a
+# system reset signal may not be available.  In this case, the
+# system reset signal must be generated locally by some form of
+# supervisory circuit.  You may change the IOSTANDARD and LOC
+# to suit your requirements and VCCO voltage banking rules.
+#
+
+NET "sys_reset_n" TIG;
+NET "sys_reset_n" IOSTANDARD = LVCMOS25 | PULLUP | NODELAY ;
+
+#
+#
+# SYS clock 100 MHz (input) signal. The sys_clk_p and sys_clk_n
+# signals are the PCI Express reference clock. Virtex-6 GT
+# Transceiver architecture requires the use of a dedicated clock
+# resources (FPGA input pins) associated with each GT Transceiver.
+# To use these pins an IBUFDS primitive (refclk_ibuf) is
+# instantiated in user's design.
+# Please refer to the Virtex-6 GT Transceiver User Guide 
+# (UG) for guidelines regarding clock resource selection.
+#
+
+#INST "refclk_ibuf" LOC = IBUFDS_GTXE1_X0Y3;
+#
+##
+## Transceiver instance placement.  This constraint selects the
+## transceivers to be used, which also dictates the pinout for the
+## transmit and receive differential pairs.  Please refer to the
+## Virtex-6 GT Transceiver User Guide (UG) for more information.
+##
+#
+## PCIe Lane 0
+#INST "pcie_v6_0/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[0].GTX" LOC = GTXE1_X0Y7;
+#
+#
+##
+## PCI Express Block placement. This constraint selects the PCI Express
+## Block to be used.
+##
+#
+#INST "pcie_v6_0/pcie_2_0_i/pcie_block_i" LOC = PCIE_X0Y0;
+#
+##
+## MMCM Placment. This constraint selects the MMCM Placement
+##
+#
+#INST "core*/pcie_clocking_i/mmcm_adv_i" LOC = MMCM_ADV_X0Y3;
+#
+################################################################################
+## Timing Constraints
+################################################################################
+#
+##
+## Timing requirements and related constraints.
+##
+#
+#NET "sys_clk_c" TNM_NET = "SYSCLK" ;
+#NET "pcie_v6_0/pcie_clocking_i/clk_125" TNM_NET = "CLK_125" ;
+#NET "pcie_v6_0/TxOutClk_bufg" TNM_NET = "TXOUTCLKBUFG";
+#
+#TIMESPEC "TS_SYSCLK"  = PERIOD "SYSCLK" 100 MHz HIGH 50 % PRIORITY 100 ;
+#TIMESPEC "TS_CLK_125"  = PERIOD "CLK_125" TS_SYSCLK*1.25 HIGH 50 % PRIORITY 1 ;
+#TIMESPEC "TS_TXOUTCLKBUFG"  = PERIOD "TXOUTCLKBUFG" 100 MHz HIGH 50 % PRIORITY 100 ;
+#
+#
+#PIN "pcie_v6_0/trn_reset_n_int_i.CLR" TIG ;
+#PIN "pcie_v6_0/trn_reset_n_i.CLR" TIG ;
+#PIN "pcie_v6_0/pcie_clocking_i/mmcm_adv_i.RST" TIG ;
+#

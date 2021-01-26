@@ -1,0 +1,82 @@
+Release 13.1 ngdbuild O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: d:\Xilinx\13.1\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ML507_Va_DEC_V10.ucf -p
+xc5vfx70t-ff1136-1 DEC_TOP.ngc DEC_TOP.ngd
+
+Reading NGO file "E:/DAS/DEC_V10/DEC_V10.ise/DEC_V10_716/DEC_TOP.ngc" ...
+Loading design module "ipcore_dir/fifo_32_64.ngc"...
+Loading design module "ipcore_dir/fifo_32_512.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "ML507_Va_DEC_V10.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_dcommand_c<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_do_c<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_lcommand_c<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/cfg_to_turnoff_n_c' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/trn_rbar_hit_n_c<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/trn_rbar_hit_n_c<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/trn_rbar_hit_n_c<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/trn_rbar_hit_n_c<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/trn_rbar_hit_n_c<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/trn_rbar_hit_n_c<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/trn_rbar_hit_n_c<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/trn_tbuf_av_c<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/trn_tbuf_av_c<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/trn_tbuf_av_c<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/trn_tbuf_av_c<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/trn_trem_n_c<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/trn_trem_n_c<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/trn_trem_n_c<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/trn_trem_n_c<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/trn_trem_n_c<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/trn_trem_n_c<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'pcie/trn_trem_n_c<7>' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  44
+
+Total memory usage is 105568 kilobytes
+
+Writing NGD file "DEC_TOP.ngd" ...
+Total REAL time to NGDBUILD completion:  6 sec
+Total CPU time to NGDBUILD completion:   5 sec
+
+Writing NGDBUILD log file "DEC_TOP.bld"...

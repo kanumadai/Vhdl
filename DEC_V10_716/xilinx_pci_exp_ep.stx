@@ -1,0 +1,142 @@
+Release 13.1 - xst O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:/LJW/DEC_V10.ise/DEC_V12_20140709v5/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to E:/LJW/DEC_V10.ise/DEC_V12_20140709v5/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ipcore_dir/bmd_v10/source/tlm_rx_data_snk_pwr_mgmt.v" in library work
+Compiling verilog file "ipcore_dir/bmd_v10/source/tlm_rx_data_snk_mal.v" in library work
+Module <tlm_rx_data_snk_pwr_mgmt> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/tlm_rx_data_snk_bar.v" in library work
+Module <tlm_rx_data_snk_mal> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/sync_fifo.v" in library work
+Module <tlm_rx_data_snk_bar> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/tx_sync_gtx.v" in library work
+Module <sync_fifo> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/tx_sync_gtp.v" in library work
+Module <TX_SYNC> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/tlm_rx_data_snk.v" in library work
+Module <TX_SYNC_GTP> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_blk_ll_tx_arb.v" in library work
+Module <tlm_rx_data_snk> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_blk_ll_tx.v" in library work
+Module <pcie_blk_ll_tx_arb> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_blk_ll_oqbqfifo.v" in library work
+Module <pcie_blk_ll_tx> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_blk_ll_arb.v" in library work
+Module <pcie_blk_ll_oqbqfifo> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/cmm_intr.v" in library work
+Module <pcie_blk_ll_arb> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/cmm_errman_ram8x26.v" in library work
+Module <cmm_intr> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/cmm_errman_ram4x26.v" in library work
+Module <cmm_errman_ram8x26> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/cmm_errman_ftl.v" in library work
+Module <cmm_errman_ram4x26> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/cmm_errman_cpl.v" in library work
+Module <cmm_errman_ftl> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/cmm_errman_cor.v" in library work
+Module <cmm_errman_cpl> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/cmm_errman_cnt_en.v" in library work
+Module <cmm_errman_cor> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/cmm_decoder.v" in library work
+Module <cmm_errman_cnt_en> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_soft_int.v" in library work
+Module <cmm_decoder> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_gt_wrapper.v" in library work
+Module <pcie_soft_cf_int> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_gtx_wrapper.v" in library work
+Module <pcie_gt_wrapper> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_blk_plus_ll_tx.v" in library work
+Module <pcie_gtx_wrapper> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_blk_plus_ll_rx.v" in library work
+Module <pcie_blk_plus_ll_tx> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_blk_ll_credit.v" in library work
+Module <pcie_blk_plus_ll_rx> compiled
+Module <pcie_blk_ll_credit> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_blk_cf_pwr.v" in library work
+Module <my_SRL16E> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_blk_cf_mgmt.v" in library work
+Module <pcie_blk_cf_pwr> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_blk_cf_err.v" in library work
+Module <pcie_blk_cf_mgmt> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_blk_cf_arb.v" in library work
+Module <pcie_blk_cf_err> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/bram_common.v" in library work
+Module <pcie_blk_cf_arb> compiled
+Compiling verilog file "bmd1052/BMD_INTR_CTRL.v" in library work
+Module <bram_common> compiled
+Compiling verilog file "bmd1052/BMD_EP_MEM.v" in library work
+Module <BMD_INTR_CTRL> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/prod_fixes.v" in library work
+Module <BMD_EP_MEM> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_reset_logic.v" in library work
+Module <prod_fixes> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_mim_wrapper.v" in library work
+Module <reset_logic> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_gt_wrapper_top.v" in library work
+Module <pcie_mim_wrapper> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_clocking.v" in library work
+Module <pcie_gt_wrapper_top> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_blk_ll.v" in library work
+Module <pcie_clocking> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_blk_cf.v" in library work
+Module <pcie_blk_ll> compiled
+Compiling verilog file "bmd1052/BMD_EP_MEM_ACCESS.v" in library work
+Module <pcie_blk_cf> compiled
+Compiling verilog file "bmd1052/BMD_64_TX_ENGINE.v" in library work
+Module <BMD_EP_MEM_ACCESS> compiled
+Compiling verilog file "bmd1052/BMD_64_RX_ENGINE.v" in library work
+Module <BMD_TX_ENGINE> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_top.v" in library work
+Module <BMD_RX_ENGINE> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_blk_if.v" in library work
+Module <pcie_top_wrapper> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/extend_clk.v" in library work
+Module <pcie_blk_if> compiled
+Compiling verilog file "bmd1052/nouse/BMD_TO_CTRL.v" in library work
+Module <extend_clk> compiled
+Compiling verilog file "bmd1052/nouse/BMD_CFG_CTRL.v" in library work
+Module <BMD_TO_CTRL> compiled
+Compiling verilog file "bmd1052/BMD_EP.v" in library work
+Module <BMD_CFG_CTRL> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/pcie_ep.v" in library work
+Module <BMD_EP> compiled
+Compiling verilog file "bmd1052/BMD.v" in library work
+Module <pcie_ep_top> compiled
+Compiling verilog file "ipcore_dir/bmd_v10/source/bmd_v10.v" in library work
+Module <BMD> compiled
+Compiling verilog file "bmd1052/v5_blk_plus_pci_exp_64b_app.v" in library work
+Module <bmd_v10> compiled
+Compiling verilog file "bmd1052/xilinx_pci_exp_ep.v" in library work
+Module <pci_exp_64b_app> compiled
+Module <xilinx_pci_exp_ep> compiled
+No errors in compilation
+Analysis of file <"xilinx_pci_exp_ep.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.61 secs
+ 
+--> 
+
+Total memory usage is 126288 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
